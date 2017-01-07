@@ -12,6 +12,8 @@ class ItemViewController: UIViewController, UICollectionViewDelegate, UICollecti
 {
     var project:Project!
     
+    @IBOutlet weak var itemCollectionView: UICollectionView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -53,6 +55,21 @@ class ItemViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
         return cell
     }
+    
+    //SaveData
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        if(addItemSaveButton == 1)
+        {
+            itemCollectionView.reloadData()
+            
+            addItemSaveButton = 0
+        }
+    }
+
     
     @IBAction func deleteCells(_ sender: AnyObject) {}
 

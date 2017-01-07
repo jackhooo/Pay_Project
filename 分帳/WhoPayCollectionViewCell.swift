@@ -9,5 +9,5 @@
 import UIKit
 
 class WhoPayCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var memberLabel: UILabel!
 }

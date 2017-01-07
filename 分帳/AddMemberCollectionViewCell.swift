@@ -10,4 +10,5 @@ import UIKit
 
 class AddMemberCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var memberLabel: UILabel!
 }

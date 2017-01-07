@@ -14,12 +14,14 @@ class Project {
     var members = [String]()
     var membersDetail: [String: [Int]] = [:]
     var items = [String]()
+    var itemsDetail: [String: [Int]] = [:]
     var month: Int!
     var date: String!
     var check: Bool!
     
-    init( projectName:String, members: [String], membersDetail:[String:[Int]], items:[String], check: Bool,month: Int, date: String){
+    init( projectName:String, members: [String], membersDetail:[String:[Int]], items:[String], check: Bool,month: Int, date: String, itemsDetail: [String: [Int]] ){
         
+        self.itemsDetail = itemsDetail
         self.date = date
         self.month = month
         self.check = check
@@ -61,71 +63,23 @@ class Project {
         }
     }
     
-    func payed( member: String ) -> Int {
-        
-        var eachPay = 0
-        var sum = 0
-        
-        for eachItemNum in 0..<items.count {
-            
-            eachPay = membersDetail[member]![eachItemNum]
-            
-            sum += eachPay
-            
-        }
-        
-        return sum
-    }
-    
-    func spend( member: String ) -> Int {
-        
-        var itemTotal = 0
-        var sum = 0
-        
-        for eachItemNum in 0..<items.count {
-            
-            itemTotal = itemTotalPay(item: items[eachItemNum]) / members.count
-            
-            sum += itemTotal
-        }
-        
-        return sum
-    }
-    
-    func shouldPayOrGet ( member: String ) -> Int {
-        
-        var eachPay = 0
-        var itemTotal = 0
-        var sum = 0
-        
-        for eachItemNum in 0..<items.count {
-            
-            itemTotal = itemTotalPay(item: items[eachItemNum]) / members.count
-            
-            eachPay = membersDetail[member]![eachItemNum] - itemTotal
-            
-            sum += eachPay
-            
-        }
-        
-        return sum
-    }
-    
-    func itemEachShouldPay( itemNum: Int ) -> Int {
-        
-        var eachPay = 0
-        
-        eachPay = itemTotalPay(item: items[itemNum]) / members.count
-        
-        return eachPay
-    }
-    
-    func itemNum ( item: String ) -> Int {
+    func getItemNum ( item: String ) -> Int {
         
         for eachItemNum in 0..<items.count {
             
             if item == items[eachItemNum]
             {return eachItemNum}
+        }
+        
+        return -1
+    }
+    
+    func getMemberNum ( member: String ) -> Int {
+        
+        for eachMemberNum in 0..<members.count {
+            
+            if member == members[eachMemberNum]
+            {return eachMemberNum}
         }
         
         return -1
@@ -137,10 +91,86 @@ class Project {
         
         for memberNum in 0..<members.count {
             
-            sum += (membersDetail[members[memberNum]]?[itemNum(item: item)])!
-            
+            sum += (membersDetail[members[memberNum]]?[getItemNum(item: item)])!
         }
         
         return sum
+    }
+    
+    func payed( member: String ) -> Int {
+        
+        var sum = 0
+        
+        if(membersDetail.count != 0){
+           
+            for eachPrice in membersDetail[member]! {
+                
+                sum += eachPrice
+                
+            }
+            
+            return sum
+        }
+        else{
+            return 0
+        }
+    }
+    
+    func spend( member: String ) -> Int {
+        
+        var sum = 0
+        
+        for list in itemsDetail{
+            if(list.value[getMemberNum(member: member)] == 1){
+                sum += itemEachShouldPay(item: list.key, member: member)
+            }
+        }
+        
+        return sum
+    }
+    
+    func shouldPayOrGet ( member: String ) -> Int {
+        
+        return payed(member: member) - spend(member: member)
+    }
+    
+    func getMemberSpentItemNum( member: String ) -> Int {
+        
+        var memberSpentItemNum = 0
+        
+        for list in itemsDetail{
+            if(list.value[getMemberNum(member: member)] == 1){
+                memberSpentItemNum += 1
+            }
+        }
+        
+        return memberSpentItemNum
+    }
+    
+    func getMemberShouldPayNum(item:String) -> Int{
+        
+        var memberShouldPayNum = 0
+        
+        for member in itemsDetail[items[getItemNum(item: item)]]!{
+            if(member == 1){
+                memberShouldPayNum += 1
+            }
+        }
+        
+        return memberShouldPayNum
+    }
+    
+    func itemEachShouldPay( item: String, member: String) -> Int {
+        
+        var eachPay = 0
+        
+        eachPay = itemTotalPay(item: item) / getMemberShouldPayNum(item:item)
+        
+        if(itemsDetail[item]?[getMemberNum(member: member)] == 0){
+            return 0
+        }
+        else{
+            return eachPay
+        }
     }
 }

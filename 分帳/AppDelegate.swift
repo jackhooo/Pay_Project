@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white, NSFontAttributeName:barFont]
         }
         
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
     }
 

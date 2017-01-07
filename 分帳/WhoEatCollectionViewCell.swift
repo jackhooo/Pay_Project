@@ -9,5 +9,5 @@
 import UIKit
 
 class WhoEatCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var memberLabel: UILabel!
 }

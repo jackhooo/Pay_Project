@@ -63,6 +63,21 @@ class MemberTableViewController: UITableViewController {
         
         return cell
     }
+    
+    //SaveData
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        
+        if(addItemSaveButton == 2)
+        {
+            self.tableView.reloadData()
+            
+            addItemSaveButton = 1
+        }
+    }
+
 
     // MARK: - Navigation
     

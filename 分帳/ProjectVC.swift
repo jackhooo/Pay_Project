@@ -31,17 +31,11 @@ class ProjectViewController: UIViewController, UICollectionViewDelegate, UIColle
         view.addSubview(segmentedControl)
         
         if(projectsToShow.count == 0){
-            
-            for project in projects{
-                
-                if(project.check == false)
-                {
-                    projectsToShow.append(project)
-                }
-            }
+        
+            SetProjectToShow(whichPage: 0)
         }
     }
-    
+        
     func numberOfSections(in collectionView: UICollectionView) -> Int
     {
         return 1
@@ -52,7 +46,9 @@ class ProjectViewController: UIViewController, UICollectionViewDelegate, UIColle
         return projectsToShow.count
     }
     
-    @IBAction func unwindToHomeScreen(_ segue:UIStoryboardSegue) {}
+    @IBAction func unwindToHomeScreen(_ segue:UIStoryboardSegue) {
+        newMemberList = []
+    }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
@@ -72,11 +68,11 @@ class ProjectViewController: UIViewController, UICollectionViewDelegate, UIColle
             cell.markColor.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
         }
         
-        cell.projectNameLabel.text = projectsToShow[(indexPath as NSIndexPath).row].projectName
+        cell.projectNameLabel.text = projectsToShow[projectsToShow.count - 1 - (indexPath as NSIndexPath).row].projectName
         
-        cell.monthLabel.text = projectsToShow[(indexPath as NSIndexPath).row].getMonth()
+        cell.monthLabel.text = projectsToShow[projectsToShow.count - 1 - (indexPath as NSIndexPath).row].getMonth()
         
-        cell.dayLabel.text = projectsToShow[(indexPath as NSIndexPath).row].date
+        cell.dayLabel.text = projectsToShow[projectsToShow.count - 1 - (indexPath as NSIndexPath).row].date
         
         return cell
     }
@@ -94,38 +90,27 @@ class ProjectViewController: UIViewController, UICollectionViewDelegate, UIColle
         return indexPath
     }
     
-    // MARK:- Should Perform Segue
+    //SaveData
     
-    //    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-    //        return !isEditing
-    //    }
-    
-    // MARK: - Navigation
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func viewWillAppear(_ animated: Bool) {
         
-        if let indexPath = getIndexPathForSelectedCell() {
+        super.viewWillAppear(animated)
         
-            if segue.identifier == "showProject" {
+        if(addProjectSaveButton == 1)
+        {
+            SetProjectToShow(whichPage: 0)
             
-                let detailViewController = segue.destination as! MemberItemViewController
-                
-                detailViewController.project = projectsToShow[(indexPath as NSIndexPath).row]
-                
-                print(projectsToShow[(indexPath as NSIndexPath).row].projectName)
-            }
+            projectCollectionView.reloadData()
+            
+            addProjectSaveButton = 0
         }
     }
-}
-
-extension ProjectViewController: TwicketSegmentedControlDelegate {
-    func didSelect(_ segmentIndex: Int) {
-        
-        //print("Selected idex: \(segmentIndex)")
+    
+    func SetProjectToShow(whichPage:Int){
         
         projectsToShow = []
         
-        if(segmentIndex == 0){
+        if(whichPage == 0){
             
             for project in projects{
                 
@@ -145,6 +130,39 @@ extension ProjectViewController: TwicketSegmentedControlDelegate {
                 }
             }
         }
+    }
+
+    
+    // MARK:- Should Perform Segue
+    
+    //    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+    //        return !isEditing
+    //    }
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let indexPath = getIndexPathForSelectedCell() {
+        
+            if segue.identifier == "showProject" {
+            
+                let detailViewController = segue.destination as! MemberItemViewController
+                
+                detailViewController.project = projectsToShow[projectsToShow.count - 1 - (indexPath as NSIndexPath).row]
+                
+                print(projectsToShow[projectsToShow.count - 1 - (indexPath as NSIndexPath).row].projectName)
+            }
+        }
+    }
+}
+
+extension ProjectViewController: TwicketSegmentedControlDelegate {
+    func didSelect(_ segmentIndex: Int) {
+        
+        //print("Selected idex: \(segmentIndex)")
+        
+        SetProjectToShow(whichPage: segmentIndex)
         
         projectCollectionView.reloadData()
     }

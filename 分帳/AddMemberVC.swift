@@ -8,11 +8,13 @@
 
 import UIKit
 
-var memberNum:Int = 0
+var newMemberList: [String] = []
 
 class AddMemberViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
     @IBOutlet weak var member: UICollectionView!
+    @IBOutlet weak var memberText: UITextField!
+    @IBOutlet weak var memberLabel: UILabel!
     
     override func viewDidLoad()
     {
@@ -21,7 +23,33 @@ class AddMemberViewController: UIViewController, UICollectionViewDelegate, UICol
     }
     
     @IBAction func addMember(_ sender:UIBarButtonItem) {
-        memberNum+=1
+        
+        
+        if ( memberText.text == "" )
+        {
+            let alertController = UIAlertController(title: "錯誤", message: "請輸入成員名稱", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "繼續", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+            
+            return
+        }
+        
+        for member in newMemberList{
+            
+            if ( memberText.text == member )
+            {
+                let alertController = UIAlertController(title: "錯誤", message: "相同名字", preferredStyle: UIAlertControllerStyle.alert)
+                alertController.addAction(UIAlertAction(title: "繼續", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alertController, animated: true, completion: nil)
+                
+                return
+            }
+        }
+        
+        newMemberList.append(memberText.text!)
+        
+        memberText.text = ""
+        
         member.reloadData()
     }
     
@@ -32,8 +60,7 @@ class AddMemberViewController: UIViewController, UICollectionViewDelegate, UICol
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        //print(memberNum)
-        return memberNum
+        return newMemberList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
@@ -41,6 +68,8 @@ class AddMemberViewController: UIViewController, UICollectionViewDelegate, UICol
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AddMemberCell", for: indexPath) as! AddMemberCollectionViewCell
         
         cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
+        cell.memberLabel.text = newMemberList[(indexPath as NSIndexPath).row]
+        cell.memberLabel.textColor = UIColor.white
         
         return cell
     }

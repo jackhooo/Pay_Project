@@ -7,34 +7,24 @@
 //
 
 import UIKit
+import TwicketSegmentedControl
+
+var memberItemproject:Project!
 
 class MemberItemViewController: UIViewController {
     
     var project:Project!
     
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var firstView: UIView!
     @IBOutlet weak var secondView: UIView!
-    
-    @IBAction func indexChanged(_ sender: UISegmentedControl) {
-        
-        switch segmentedControl.selectedSegmentIndex
-        {
-        case 0:
-            firstView.isHidden = false
-            secondView.isHidden = true
-        case 1:
-            firstView.isHidden = true
-            secondView.isHidden = false
-        default:
-            break;
-        }
-    }
-    
+       
     override func viewDidLoad() {
         super.viewDidLoad()
         
-                
+        memberItemproject = project
+        
+       // print(memberItemproject.projectName)
+
         self.navigationController?.navigationBar.isTranslucent = true
         self.automaticallyAdjustsScrollViewInsets = false
         
@@ -45,18 +35,34 @@ class MemberItemViewController: UIViewController {
             action: nil
         );
         
+         navigationItem.title = project.projectName
+        
+        
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton;
         
         firstView.isHidden = false
         secondView.isHidden = true
+        
+        let titles = ["成員", "項目"]
+        let frame = CGRect(x: 0, y: 64, width: view.frame.width, height: 40)
+        let segmentedControl = TwicketSegmentedControl(frame: frame)
+        segmentedControl.setSegmentItems(titles)
+        segmentedControl.defaultTextColor = UIColor.white
+        segmentedControl.backgroundColor = UIColor.clear
+        segmentedControl.sliderBackgroundColor =  UIColor(red: 242.0/255.0, green: 116.0/255.0, blue: 119.0/255.0, alpha: 0.6)
+        segmentedControl.delegate = self
+        view.addSubview(segmentedControl)
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
+    
+    
     // MARK: - Navigation
-        
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showMember" {
@@ -68,5 +74,25 @@ class MemberItemViewController: UIViewController {
             let destinationController = segue.destination as! ItemViewController
             destinationController.project = project
         }
-    }    
+    }
 }
+
+extension MemberItemViewController: TwicketSegmentedControlDelegate {
+    func didSelect(_ segmentIndex: Int) {
+        
+        switch segmentIndex
+        {
+        case 0:
+            firstView.isHidden = false
+            secondView.isHidden = true
+        case 1:
+            firstView.isHidden = true
+            secondView.isHidden = false
+        default:
+            break;
+        }
+        
+        //print("Selected idex: \(segmentIndex)")
+    }
+}
+
