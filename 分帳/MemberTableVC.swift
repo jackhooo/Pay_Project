@@ -11,15 +11,21 @@ import UIKit
 class MemberTableViewController: UITableViewController {
     
     var project:Project!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector:#selector(self.loadList(notification:)),name:NSNotification.Name(rawValue: "load"), object: nil)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
+    func loadList(notification: NSNotification){
+        self.tableView.reloadData()
+    }
+    
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -29,8 +35,10 @@ class MemberTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return project.members.count
     }
-
-    @IBAction func unwindToHomeScreen(_ segue:UIStoryboardSegue) {}
+    
+    @IBAction func unwindToHomeScreen(_ segue:UIStoryboardSegue) {
+        isEdit = 0
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -39,7 +47,7 @@ class MemberTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MemberTableViewCell
         
         let memberShouldPayOrGet = project.shouldPayOrGet(member: project.members[(indexPath as NSIndexPath).row])
-
+        
         let memberPayed = project.payed(member: project.members[(indexPath as NSIndexPath).row])
         
         let memberSpend = project.spend(member: project.members[(indexPath as NSIndexPath).row])
@@ -77,10 +85,8 @@ class MemberTableViewController: UITableViewController {
             addItemSaveButton = 1
         }
     }
-
-
-    // MARK: - Navigation
     
+    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showMemberDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
@@ -95,5 +101,5 @@ class MemberTableViewController: UITableViewController {
         }
         
     }
-
+    
 }

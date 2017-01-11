@@ -1,0 +1,6 @@
+framework module Pods____ {
+  umbrella header "Pods-分錢寶-umbrella.h"
+
+  export *
+  module * { export * }
+}

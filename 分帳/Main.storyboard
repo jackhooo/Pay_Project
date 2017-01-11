@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--分帳app-->
+        <!--分錢寶-->
         <scene sceneID="Dlv-iq-TI3">
             <objects>
-                <viewController id="tjr-zY-mHw" customClass="ProjectViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tjr-zY-mHw" customClass="ProjectViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="urD-s4-gDS"/>
                         <viewControllerLayoutGuide type="bottom" id="YV4-DY-fge"/>
@@ -29,14 +29,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Yex-qL-cvK" customClass="ProjectCollectionViewCell" customModule="分帳" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Yex-qL-cvK" customClass="ProjectCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
                                         <rect key="frame" x="6" y="0.0" width="363" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="363" height="190"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LB1-tQ-f8U" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LB1-tQ-f8U" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmW-sW-qvc">
                                                             <color key="backgroundColor" red="1" green="0.72607656857966774" blue="0.64248472648448085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -132,7 +132,7 @@
                             <constraint firstItem="a55-sn-6j4" firstAttribute="top" secondItem="Iyi-il-YCT" secondAttribute="top" constant="49" id="nIO-WL-xfP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="分帳app" id="oUf-zV-peT">
+                    <navigationItem key="navigationItem" title="分錢寶" id="oUf-zV-peT">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="keh-Md-umV">
                             <connections>
                                 <segue destination="hVB-G7-wLG" kind="show" id="mX0-kB-UVf"/>
@@ -150,7 +150,7 @@
         <!--Member Item View Controller-->
         <scene sceneID="wZ3-Cj-3gg">
             <objects>
-                <viewController id="1A2-1L-Pqy" customClass="MemberItemViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1A2-1L-Pqy" customClass="MemberItemViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lAf-XU-Bw7"/>
                         <viewControllerLayoutGuide type="bottom" id="q8e-7Z-5MR"/>
@@ -220,7 +220,7 @@
         <!--Member View Controller-->
         <scene sceneID="ueI-FW-2Yf">
             <objects>
-                <viewController id="HoZ-XY-Ob6" customClass="MemberViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HoZ-XY-Ob6" customClass="MemberViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="msh-NB-Dlv"/>
                         <viewControllerLayoutGuide type="bottom" id="fDe-hs-pZS"/>
@@ -229,7 +229,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0H-PJ-Xnz" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0H-PJ-Xnz" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3G-lT-ETN">
                                         <subviews>
@@ -313,7 +313,7 @@
         <!--Item View Controller-->
         <scene sceneID="Vv3-Td-orv">
             <objects>
-                <viewController id="ARH-4X-fRv" customClass="ItemViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ARH-4X-fRv" customClass="ItemViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CQD-4E-rBc"/>
                         <viewControllerLayoutGuide type="bottom" id="dYM-3p-CTo"/>
@@ -331,14 +331,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="50" maxX="0.0" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Itemcell" id="lfO-Xr-e1V" customClass="ItemCollectionViewCell" customModule="分帳" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="365" height="118"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Itemcell" id="lfO-Xr-e1V" customClass="ItemCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="50" width="365" height="118"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="365" height="118"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-Uk-yvL" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-Uk-yvL" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cru-Ow-8LV">
                                                             <color key="backgroundColor" red="1" green="0.72607656860000003" blue="0.64248472649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -363,6 +363,10 @@
                                                                     <real key="value" value="4"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <action selector="editMode:" destination="ARH-4X-fRv" eventType="touchUpInside" id="0uF-2F-mkB"/>
+                                                                <segue destination="nLh-fM-tza" kind="show" id="eAg-be-ZJ1"/>
+                                                            </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD7-nH-qRS">
                                                             <frame key="frameInset" minX="35" minY="40" width="98" height="24"/>
@@ -383,9 +387,12 @@
                                                                     <real key="value" value="4"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <action selector="deleteCells:" destination="ARH-4X-fRv" eventType="touchUpInside" id="RUP-NP-zMD"/>
+                                                            </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2d-dS-wGq">
-                                                            <frame key="frameInset" minX="181" minY="40" width="90" height="24"/>
+                                                            <frame key="frameInset" minX="203" minY="40" width="90" height="24"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -415,6 +422,8 @@
                                         </constraints>
                                         <size key="customSize" width="365" height="118"/>
                                         <connections>
+                                            <outlet property="deleteButton" destination="kgI-tO-bRJ" id="f9g-2F-UJV"/>
+                                            <outlet property="editButton" destination="fyL-Az-GIv" id="Wt9-NN-75u"/>
                                             <outlet property="itemNameLabel" destination="PD7-nH-qRS" id="d1z-xy-Jpv"/>
                                             <outlet property="itemPriceLabel" destination="x2d-dS-wGq" id="tSm-Me-25z"/>
                                             <outlet property="markColor" destination="Cru-Ow-8LV" id="UWA-bN-ctF"/>
@@ -446,17 +455,17 @@
         <!--Member Table View Controller-->
         <scene sceneID="Bgh-44-STs">
             <objects>
-                <tableViewController id="JQv-C4-T2o" customClass="MemberTableViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="JQv-C4-T2o" customClass="MemberTableViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="39" sectionHeaderHeight="28" sectionFooterHeight="28" id="zf0-aY-bx2">
                         <rect key="frame" x="0.0" y="0.0" width="327" height="469"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberCell" rowHeight="39" id="L7S-st-g5M" customClass="MemberTableViewCell" customModule="分帳" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberCell" rowHeight="39" id="L7S-st-g5M" customClass="MemberTableViewCell" customModule="分錢寶" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="327" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L7S-st-g5M" id="eDs-Rx-5NS">
-                                    <frame key="frameInset" width="327" height="38.5"/>
+                                    <frame key="frameInset" width="327" height="38"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yfl-hp-AKj">
@@ -522,7 +531,7 @@
         <!--新增專案-->
         <scene sceneID="GPw-vz-dZz">
             <objects>
-                <viewController id="ez7-Xx-EIa" customClass="AddProjectViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ez7-Xx-EIa" customClass="AddProjectViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YkH-Qk-knE"/>
                         <viewControllerLayoutGuide type="bottom" id="3gX-r5-4q4"/>
@@ -531,17 +540,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub5-t8-ddv" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ub5-t8-ddv" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sft-QW-JcQ">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增活動名稱" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-NK-AbQ">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增活動名稱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-NK-AbQ">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ez7-Xx-EIa" id="BPQ-vd-677"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnY-wJ-x9k">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -641,7 +653,7 @@
         <!--Add Member View Controller-->
         <scene sceneID="PDg-uM-ZPF">
             <objects>
-                <viewController id="uTF-ye-996" customClass="AddMemberViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uTF-ye-996" customClass="AddMemberViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s0Z-pe-ef7"/>
                         <viewControllerLayoutGuide type="bottom" id="97a-aK-nI1"/>
@@ -659,7 +671,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddMemberCell" id="Iek-8K-37H" customClass="AddMemberCollectionViewCell" customModule="分帳" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddMemberCell" id="Iek-8K-37H" customClass="AddMemberCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -695,10 +707,13 @@
                                     <outlet property="delegate" destination="uTF-ye-996" id="m1A-mK-YgC"/>
                                 </connections>
                             </collectionView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增成員" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-rW-7mA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增成員" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-rW-7mA">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="uTF-ye-996" id="VZQ-lc-gfS"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfm-pm-pNS">
                                 <connections>
@@ -708,14 +723,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="97a-aK-nI1" firstAttribute="top" secondItem="MwL-Fc-HGT" secondAttribute="bottom" id="2Ku-Rf-YxW"/>
+                            <constraint firstItem="97a-aK-nI1" firstAttribute="top" secondItem="MwL-Fc-HGT" secondAttribute="bottom" id="0jM-du-k3s"/>
                             <constraint firstAttribute="trailing" secondItem="MwL-Fc-HGT" secondAttribute="trailing" id="2UA-td-zcH"/>
-                            <constraint firstItem="VdH-rW-7mA" firstAttribute="top" secondItem="s0Z-pe-ef7" secondAttribute="bottom" id="4Uf-Ua-wdk"/>
                             <constraint firstItem="kfm-pm-pNS" firstAttribute="leading" secondItem="VdH-rW-7mA" secondAttribute="trailing" constant="21.5" id="71z-JR-0Nt"/>
-                            <constraint firstItem="kfm-pm-pNS" firstAttribute="top" secondItem="s0Z-pe-ef7" secondAttribute="bottom" constant="4" id="Sr7-Cf-ZUO"/>
                             <constraint firstItem="VdH-rW-7mA" firstAttribute="leading" secondItem="m6y-20-NTb" secondAttribute="leading" id="Yot-pe-4E6"/>
+                            <constraint firstItem="kfm-pm-pNS" firstAttribute="top" secondItem="s0Z-pe-ef7" secondAttribute="bottom" constant="4" id="j2I-sw-jI1"/>
                             <constraint firstItem="MwL-Fc-HGT" firstAttribute="leading" secondItem="m6y-20-NTb" secondAttribute="leading" id="ptb-6Y-3jd"/>
                             <constraint firstItem="MwL-Fc-HGT" firstAttribute="top" secondItem="VdH-rW-7mA" secondAttribute="bottom" constant="20" id="t3E-xW-rdv"/>
+                            <constraint firstItem="VdH-rW-7mA" firstAttribute="top" secondItem="s0Z-pe-ef7" secondAttribute="bottom" id="vSC-u9-9up"/>
                         </constraints>
                     </view>
                     <connections>
@@ -730,16 +745,16 @@
         <!--新增花費-->
         <scene sceneID="2Qd-FB-g2w">
             <objects>
-                <viewController id="bPl-WT-C9A" customClass="AddItemViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bPl-WT-C9A" customClass="AddItemViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rus-In-3nh"/>
                         <viewControllerLayoutGuide type="bottom" id="VGb-aE-laM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ayb-nw-3J7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ft5-Kw-n1y" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ft5-Kw-n1y" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名稱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQY-ef-3Iv">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -784,7 +799,7 @@
                                             <segue destination="fc4-AS-uoK" kind="embed" id="sRa-Fo-ByI"/>
                                         </connections>
                                     </containerView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="吃的是" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij9-z4-gvB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="享受的是" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij9-z4-gvB">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -845,7 +860,7 @@
                     <navigationItem key="navigationItem" title="新增花費" id="aPe-fj-hZ3">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="xW7-XW-obx">
                             <connections>
-                                <segue destination="PLP-wV-aRd" kind="unwind" unwindAction="unwindToHomeScreen:" id="jc4-p0-SH1"/>
+                                <segue destination="PLP-wV-aRd" kind="unwind" unwindAction="unwindToHomeScreen:" id="cmd-cY-d4o"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="IOZ-A1-j7r">
@@ -885,7 +900,7 @@
         <!--Who Pay View Controller-->
         <scene sceneID="glz-31-yJ1">
             <objects>
-                <viewController id="fc4-AS-uoK" customClass="WhoPayViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fc4-AS-uoK" customClass="WhoPayViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XmK-ZK-nZy"/>
                         <viewControllerLayoutGuide type="bottom" id="N38-0Y-nB3"/>
@@ -903,7 +918,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WhoPayCell" id="ia7-28-1qa" customClass="WhoPayCollectionViewCell" customModule="分帳" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WhoPayCell" id="ia7-28-1qa" customClass="WhoPayCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -956,7 +971,7 @@
         <!--Who Eat View Controller-->
         <scene sceneID="iZu-zz-gzc">
             <objects>
-                <viewController id="Jqs-q3-svW" customClass="WhoEatViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jqs-q3-svW" customClass="WhoEatViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NJH-RG-0sp"/>
                         <viewControllerLayoutGuide type="bottom" id="lmg-Rx-0Ol"/>
@@ -974,7 +989,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WhoEatCell" id="8iY-pW-L7V" customClass="WhoEatCollectionViewCell" customModule="分帳" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WhoEatCell" id="8iY-pW-L7V" customClass="WhoEatCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1027,17 +1042,17 @@
         <!--Member Detail Table View Controller-->
         <scene sceneID="jzg-hq-QC1">
             <objects>
-                <tableViewController id="Emc-zV-FdF" customClass="MemberDetailTableViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Emc-zV-FdF" customClass="MemberDetailTableViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="39" sectionHeaderHeight="28" sectionFooterHeight="28" id="cPH-pp-aRO">
-                        <rect key="frame" x="0.0" y="0.0" width="888" height="1382"/>
+                        <rect key="frame" x="0.0" y="0.0" width="279" height="434.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberDetailCell" rowHeight="39" id="LU6-HJ-xm2" customClass="MemberDetailTableViewCell" customModule="分帳" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="888" height="39"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberDetailCell" rowHeight="39" id="LU6-HJ-xm2" customClass="MemberDetailTableViewCell" customModule="分錢寶" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="279" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LU6-HJ-xm2" id="rfF-9v-CQI">
-                                    <frame key="frameInset" width="888" height="38.5"/>
+                                    <frame key="frameInset" width="279" height="38"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoU-6m-J5G">
@@ -1102,7 +1117,7 @@
         <!--Member Detail View Controller-->
         <scene sceneID="Ihz-cx-sJR">
             <objects>
-                <viewController id="oxC-eq-Lo4" customClass="MemberDetailViewController" customModule="分帳" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oxC-eq-Lo4" customClass="MemberDetailViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dzZ-fi-7Do"/>
                         <viewControllerLayoutGuide type="bottom" id="QSa-FL-rKx"/>
@@ -1111,7 +1126,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="327" height="469"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Why-pB-Y2l" customClass="ShadowView" customModule="分帳" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Why-pB-Y2l" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7y-Cx-HWr">
                                         <constraints>
@@ -1193,4 +1208,7 @@
             <point key="canvasLocation" x="4663" y="1006"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="eAg-be-ZJ1"/>
+    </inferredMetricsTieBreakers>
 </document>

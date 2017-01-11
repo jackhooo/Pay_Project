@@ -17,8 +17,28 @@ class WhoPayViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        whoPayList = Array(repeating: 0, count: memberItemproject.members.count)
+        if(isEdit == 1){
+           
+            whoPayList = []
+            
+            for x in memberItemproject.membersDetail{
+            
+                if(x.value[memberItemproject.getItemNum(item: toEditItem)]>0)
+                {
+                    whoPayNum += 1
+                    whoPayList.append(1)
+                }
+                else
+                {
+                    whoPayList.append(0)
+                }
+            }
+
+        }
+        else
+        {
+            whoPayList = Array(repeating: 0, count: memberItemproject.members.count)
+        }
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int
@@ -35,7 +55,17 @@ class WhoPayViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "WhoPayCell", for: indexPath) as! WhoPayCollectionViewCell
         
-        cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
+        //cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
+        
+        if(whoPayList[(indexPath as NSIndexPath).row] == 1)
+        {
+            cell.backgroundColor = UIColor(red: 242.0/255.0, green: 116.0/255.0, blue: 119.0/255.0, alpha: 1.0)
+        }
+        else
+        {
+            cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
+        }
+        
         
         cell.memberLabel.text = memberItemproject.members[(indexPath as NSIndexPath).row]
         
@@ -65,15 +95,4 @@ class WhoPayViewController: UIViewController, UICollectionViewDelegate, UICollec
             whoPayList[(indexPath as NSIndexPath).row] = 1
         }
     }
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }

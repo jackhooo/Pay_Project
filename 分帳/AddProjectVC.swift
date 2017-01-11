@@ -10,7 +10,7 @@ import UIKit
 
 var addProjectSaveButton = 0
 
-class AddProjectViewController: UIViewController {
+class AddProjectViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var date: UIDatePicker!
     @IBOutlet weak var projectNameText: UITextField!
@@ -79,6 +79,11 @@ class AddProjectViewController: UIViewController {
         
         // Dismiss the view controller
         dismiss(animated: true, completion: nil)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     // MARK: - Navigation

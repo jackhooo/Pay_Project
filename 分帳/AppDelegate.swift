@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import IHKeyboardAvoiding
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

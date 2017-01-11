@@ -7,316 +7,302 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A2A992B105A2FD4674504C8FA210E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		0D2169609793A9CAF06A2E48705C3A20 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E562F30DD3081F9E55AFDD443C8233A1 /* UIViewShadowExtension.swift */; };
-		2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C9425D0A5CF0AD0B1D58285A13F212 /* MenuItemViewCustomizable.swift */; };
-		3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6EE3284D57B8EC00D8313905678B61 /* PagingMenuController-dummy.m */; };
-		3E9B8DEBA6E6E4F710BAB35B10B3FB4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4AF63A748829D4F5C4E1965C27A28EC5 /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE379BFD5EB6C8016C8318BFE14DD3 /* TwicketSegmentedControl.swift */; };
-		58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970AE834BDA92CA0E6ABF7685199051E /* PagingMenuController.swift */; };
-		6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A92A294133A797624B7C27595EB009 /* PagingMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78335FD9C39E8518BC25F72CB7CA84E9 /* MenuItemView.swift */; };
-		846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F023BA5B8D140ED8242563DC84CAA94 /* PagingViewController.swift */; };
-		957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE363E459A5F959270FFB15BDE35817 /* MenuView.swift */; };
-		AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F67B82DCE2421D9E295B173C572C1 /* PagingMenuControllerCustomizable.swift */; };
-		B42E5EF975CB6C5D03F06B7BC889B899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2673B86B04676FEF78749BD8924F6 /* MenuViewCustomizable.swift */; };
-		DDFB5CBF749DB596C9276F095A768F50 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D52E513C591B68718F645CA383AF2CC /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81A1D7998CC83E2E9D916E63571EC59 /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23E279FE226FFAF5634F62C68FF2 /* TwicketSegmentedControl-dummy.m */; };
-		E9E81CF8FEF37BFB8A6837DFD12A5C88 /* Pods-分帳-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD71ECAD5CB0285826EE2B06EF8A25EF /* Pods-分帳-dummy.m */; };
-		EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35020C5138AE4CCC426DE410E04AA1 /* Pagable.swift */; };
-		EB607D7EEDDDAB1F01E4570AD25E84C0 /* Pods-分帳-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C43B0EA04DA2E6466817D112268112A9 /* Pods-分帳-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBCB51E6A1626A1A76523E16187F5A4E /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695BB908DADDF6D63926B8EC5C67D6C /* Palette.swift */; };
+		09683AF77DBDA84472F6D803A8508FC1 /* Pods-分錢寶-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */; };
+		4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */; };
+		55813D2C72ABDFBBEAB56424B53C7E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8000EBBF957B9BD0D7E766503CA58D7B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */; };
+		915CE1522B286DB476E0495CEBF21DBE /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */; };
+		B56FA30914A6050731F29358E87D2BB5 /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */; };
+		C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */; };
+		D4BDC6B780BEBDB3B9B25A4D6C84DD4A /* Pods-分錢寶-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */; };
+		D6E693D489ECED2C2243E8A2F97536D9 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19B50BA6ACC8421E6BA875E440D19E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		E75A907A493ED7B57B99BF0B2541876F /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */; };
+		EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10653F73D9E204C6394FBC97DCE76A89 /* PBXContainerItemProxy */ = {
+		CA56AC18A12C1E5D8196C7B547F27AFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C775CBB7BFF6877AD966116C48B57ADC;
-			remoteInfo = TwicketSegmentedControl;
+			remoteGlobalIDString = 033B2F5EFC98402794E5FA4A2E42BD9F;
+			remoteInfo = IHKeyboardAvoiding;
 		};
-		95D2BEF5120B5A31B288F80CCB7A6AC0 /* PBXContainerItemProxy */ = {
+		FA90358BBDAD4EF946038843EF4831D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6ADB3656BDFD85FB77E0CAB44BFF61E6;
-			remoteInfo = PagingMenuController;
+			remoteGlobalIDString = F00AEF4A0EEE13C4BB927B8484B062B0;
+			remoteInfo = TwicketSegmentedControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EF2673B86B04676FEF78749BD8924F6 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewCustomizable.swift; path = Pod/Classes/Protocols/MenuViewCustomizable.swift; sourceTree = "<group>"; };
-		13F09B474D0A1901A285D5A8ABB0A3EF /* Pods-分帳.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分帳.release.xcconfig"; sourceTree = "<group>"; };
-		16906FBDE94D246AB66EC2972C1E75B3 /* Pods-分帳-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-分帳-acknowledgements.plist"; sourceTree = "<group>"; };
-		17AE379BFD5EB6C8016C8318BFE14DD3 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
-		17CED6BA616126B92F6F89C0D8C05555 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B1CC5B7CF88B85125434D2D8C167204 /* PagingMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-prefix.pch"; sourceTree = "<group>"; };
-		21ABC4E991DA509E593FFD55517FD4E6 /* PagingMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingMenuController.framework; path = PagingMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BBE23E279FE226FFAF5634F62C68FF2 /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
-		3D52E513C591B68718F645CA383AF2CC /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
-		3F023BA5B8D140ED8242563DC84CAA94 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Pod/Classes/PagingViewController.swift; sourceTree = "<group>"; };
-		3FA80D8545096D106ADC0B4B663F77AE /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
-		5279C3BEF1C8A3D1E06DB4C4A41625D1 /* Pods-分帳.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分帳.debug.xcconfig"; sourceTree = "<group>"; };
-		73300DC72B6F25A109441264F2C42E9B /* PagingMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingMenuController.xcconfig; sourceTree = "<group>"; };
-		78335FD9C39E8518BC25F72CB7CA84E9 /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemView.swift; path = Pod/Classes/MenuItemView.swift; sourceTree = "<group>"; };
-		7E9F64E3C7A7C52D86C053C561D2EAE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F9F67B82DCE2421D9E295B173C572C1 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuControllerCustomizable.swift; path = Pod/Classes/Protocols/PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
-		8F12A0A6B5D0AAA86F7CF84ECBEC8562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0667E3708BC5BA89FD7E10460F1372D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
+		0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		129F4C80888CAA432B4F03D8D67B1E84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1563CBA60893C1C534BB12E6914B6E91 /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
+		24F5AA3F44A20EA7162A109838A89E0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEED895C02D6AFFEFC10D84FE06295B /* Pods-分錢寶-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-分錢寶-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分錢寶.debug.xcconfig"; sourceTree = "<group>"; };
+		3CAD55FAFCF5CF6BD560FBD98F7473AD /* Pods-分錢寶.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分錢寶.release.xcconfig"; sourceTree = "<group>"; };
+		46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E07096532DCEEBBE9AC047924CC0363 /* Pods-分錢寶-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-分錢寶-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-分錢寶-umbrella.h"; sourceTree = "<group>"; };
+		75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods____.framework; path = "Pods-分錢寶.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9C43CB36D51BEA6223DFD386AC6A7C /* Pods-分錢寶-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分錢寶-resources.sh"; sourceTree = "<group>"; };
+		92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9473D77EA4F0771E4F0E09B35BF58DCF /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
-		94C9425D0A5CF0AD0B1D58285A13F212 /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemViewCustomizable.swift; path = Pod/Classes/Protocols/MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
-		970AE834BDA92CA0E6ABF7685199051E /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuController.swift; path = Pod/Classes/PagingMenuController.swift; sourceTree = "<group>"; };
-		9A07499BE9FB1F7E74393453A1B458BE /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods___.framework; path = "Pods-分帳.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D35020C5138AE4CCC426DE410E04AA1 /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pagable.swift; path = Pod/Classes/Protocols/Pagable.swift; sourceTree = "<group>"; };
-		AF6EE3284D57B8EC00D8313905678B61 /* PagingMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingMenuController-dummy.m"; sourceTree = "<group>"; };
-		C1A92A294133A797624B7C27595EB009 /* PagingMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingMenuController-umbrella.h"; sourceTree = "<group>"; };
-		C43B0EA04DA2E6466817D112268112A9 /* Pods-分帳-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-分帳-umbrella.h"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD71ECAD5CB0285826EE2B06EF8A25EF /* Pods-分帳-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-分帳-dummy.m"; sourceTree = "<group>"; };
-		D0AF129AB97CDD5275599A66E5DE65DA /* Pods-分帳-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分帳-resources.sh"; sourceTree = "<group>"; };
-		D82F7531254DE9ACB20663CB4B8C6240 /* Pods-分帳-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分帳-frameworks.sh"; sourceTree = "<group>"; };
-		DBE363E459A5F959270FFB15BDE35817 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Pod/Classes/MenuView.swift; sourceTree = "<group>"; };
-		E324358645AF0B46B36F2AC2FC7430A8 /* Pods-分帳-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-分帳-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E562F30DD3081F9E55AFDD443C8233A1 /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
-		E695BB908DADDF6D63926B8EC5C67D6C /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
-		E994DB412D92D2BBACE365ADD90A9599 /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E0C490A9AE96387FA663DA0EF7B118 /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
-		F6042354D5CEE935692D7EC90564DDD4 /* PagingMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PagingMenuController.modulemap; sourceTree = "<group>"; };
-		FD38DCCB11234AF9874FB4CA19D1CB33 /* Pods-分帳.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-分帳.modulemap"; sourceTree = "<group>"; };
+		95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27F9277992B794FEA54F82E6305F762 /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		A3012FE35A316A21C6969285D07B33BD /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		AB803A6AC0E0BAFCD05BCC0E99AE33CC /* Pods-分錢寶-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分錢寶-frameworks.sh"; sourceTree = "<group>"; };
+		C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		D2C2DDBA5F07E4B6A677524E539B5481 /* Pods-分錢寶.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-分錢寶.modulemap"; sourceTree = "<group>"; };
+		D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-分錢寶-dummy.m"; sourceTree = "<group>"; };
+		D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
+		FA73F0D45A016F6295BDC37E2168EB30 /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03E7C3DF47D01DDC32E252295081A592 /* Frameworks */ = {
+		0C607FE1DC12042D36F3812554A7F9BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9B8DEBA6E6E4F710BAB35B10B3FB4F /* Foundation.framework in Frameworks */,
+				55813D2C72ABDFBBEAB56424B53C7E26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8B5EA0CE2343A96E77FF8D9D30D930F /* Frameworks */ = {
+		4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A2A992B105A2FD4674504C8FA210E5 /* Foundation.framework in Frameworks */,
+				0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */,
+				E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB316219D4A24B3B3321FAA04F93A821 /* Frameworks */ = {
+		8BD5CBBDF43296D8E5E8EED2FD2BBB55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42E5EF975CB6C5D03F06B7BC889B899 /* Foundation.framework in Frameworks */,
+				E19B50BA6ACC8421E6BA875E440D19E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B6716F087D5DB9C4721D7A7A3613BBB /* PagingMenuController */ = {
+		0B47A86A021ABDE3CE4FF32166EA5FBD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78335FD9C39E8518BC25F72CB7CA84E9 /* MenuItemView.swift */,
-				94C9425D0A5CF0AD0B1D58285A13F212 /* MenuItemViewCustomizable.swift */,
-				DBE363E459A5F959270FFB15BDE35817 /* MenuView.swift */,
-				0EF2673B86B04676FEF78749BD8924F6 /* MenuViewCustomizable.swift */,
-				9D35020C5138AE4CCC426DE410E04AA1 /* Pagable.swift */,
-				970AE834BDA92CA0E6ABF7685199051E /* PagingMenuController.swift */,
-				7F9F67B82DCE2421D9E295B173C572C1 /* PagingMenuControllerCustomizable.swift */,
-				3F023BA5B8D140ED8242563DC84CAA94 /* PagingViewController.swift */,
-				73F3E20D69B4212CD21E07CA0606A157 /* Support Files */,
-			);
-			name = PagingMenuController;
-			path = PagingMenuController;
-			sourceTree = "<group>";
-		};
-		342BE1822CA94AFCC6BDB4ACBFE6BEEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				17CED6BA616126B92F6F89C0D8C05555 /* Info.plist */,
-				9473D77EA4F0771E4F0E09B35BF58DCF /* TwicketSegmentedControl.modulemap */,
-				3FA80D8545096D106ADC0B4B663F77AE /* TwicketSegmentedControl.xcconfig */,
-				2BBE23E279FE226FFAF5634F62C68FF2 /* TwicketSegmentedControl-dummy.m */,
-				F4E0C490A9AE96387FA663DA0EF7B118 /* TwicketSegmentedControl-prefix.pch */,
-				3D52E513C591B68718F645CA383AF2CC /* TwicketSegmentedControl-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TwicketSegmentedControl";
-			sourceTree = "<group>";
-		};
-		5CA05925856A136BC87F192CDC74BFBE /* TwicketSegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-				E695BB908DADDF6D63926B8EC5C67D6C /* Palette.swift */,
-				17AE379BFD5EB6C8016C8318BFE14DD3 /* TwicketSegmentedControl.swift */,
-				E562F30DD3081F9E55AFDD443C8233A1 /* UIViewShadowExtension.swift */,
-				342BE1822CA94AFCC6BDB4ACBFE6BEEA /* Support Files */,
-			);
-			name = TwicketSegmentedControl;
-			path = TwicketSegmentedControl;
-			sourceTree = "<group>";
-		};
-		62F76A6896E2D56E00FBC3D0C56B34EF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E888546A60ACF00DE42759EAA4DBC0C /* Pods-分帳 */,
+				F313ABA16D1190FE73E54E3D4DAF5B74 /* Pods-分錢寶 */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		73F3E20D69B4212CD21E07CA0606A157 /* Support Files */ = {
+		3506EECCDEB1A448A69AD0D25C2C5A1A /* IHKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				7E9F64E3C7A7C52D86C053C561D2EAE2 /* Info.plist */,
-				F6042354D5CEE935692D7EC90564DDD4 /* PagingMenuController.modulemap */,
-				73300DC72B6F25A109441264F2C42E9B /* PagingMenuController.xcconfig */,
-				AF6EE3284D57B8EC00D8313905678B61 /* PagingMenuController-dummy.m */,
-				1B1CC5B7CF88B85125434D2D8C167204 /* PagingMenuController-prefix.pch */,
-				C1A92A294133A797624B7C27595EB009 /* PagingMenuController-umbrella.h */,
+				D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */,
+				46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */,
+				B1BAAC06DF65E06107B084E82C2948C1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PagingMenuController";
+			name = IHKeyboardAvoiding;
+			path = IHKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A968A8EB2CA2A91350B2F188386D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */,
+				8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */,
+				95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				97AC37740969AE81C49FFC521488579E /* Pods */,
-				C6F63340A5B1E053C3D5B5188D90E132 /* Products */,
-				62F76A6896E2D56E00FBC3D0C56B34EF /* Targets Support Files */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FD84DBDA38CF669EC83F0F2F1199AA38 /* Pods */,
+				76A968A8EB2CA2A91350B2F188386D83 /* Products */,
+				0B47A86A021ABDE3CE4FF32166EA5FBD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E888546A60ACF00DE42759EAA4DBC0C /* Pods-分帳 */ = {
+		927DE9CB1AC5B430F55C7163B2FFC542 /* TwicketSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				8F12A0A6B5D0AAA86F7CF84ECBEC8562 /* Info.plist */,
-				FD38DCCB11234AF9874FB4CA19D1CB33 /* Pods-分帳.modulemap */,
-				E324358645AF0B46B36F2AC2FC7430A8 /* Pods-分帳-acknowledgements.markdown */,
-				16906FBDE94D246AB66EC2972C1E75B3 /* Pods-分帳-acknowledgements.plist */,
-				CD71ECAD5CB0285826EE2B06EF8A25EF /* Pods-分帳-dummy.m */,
-				D82F7531254DE9ACB20663CB4B8C6240 /* Pods-分帳-frameworks.sh */,
-				D0AF129AB97CDD5275599A66E5DE65DA /* Pods-分帳-resources.sh */,
-				C43B0EA04DA2E6466817D112268112A9 /* Pods-分帳-umbrella.h */,
-				5279C3BEF1C8A3D1E06DB4C4A41625D1 /* Pods-分帳.debug.xcconfig */,
-				13F09B474D0A1901A285D5A8ABB0A3EF /* Pods-分帳.release.xcconfig */,
+				D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */,
+				92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */,
+				09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */,
+				9978873F267A55BEF91B237593BFF548 /* Support Files */,
 			);
-			name = "Pods-分帳";
-			path = "Target Support Files/Pods-分帳";
+			name = TwicketSegmentedControl;
+			path = TwicketSegmentedControl;
 			sourceTree = "<group>";
 		};
-		97AC37740969AE81C49FFC521488579E /* Pods */ = {
+		9978873F267A55BEF91B237593BFF548 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B6716F087D5DB9C4721D7A7A3613BBB /* PagingMenuController */,
-				5CA05925856A136BC87F192CDC74BFBE /* TwicketSegmentedControl */,
+				129F4C80888CAA432B4F03D8D67B1E84 /* Info.plist */,
+				1563CBA60893C1C534BB12E6914B6E91 /* TwicketSegmentedControl.modulemap */,
+				C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */,
+				FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */,
+				A27F9277992B794FEA54F82E6305F762 /* TwicketSegmentedControl-prefix.pch */,
+				0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwicketSegmentedControl";
+			sourceTree = "<group>";
+		};
+		B1BAAC06DF65E06107B084E82C2948C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA73F0D45A016F6295BDC37E2168EB30 /* IHKeyboardAvoiding.modulemap */,
+				60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */,
+				7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */,
+				A3012FE35A316A21C6969285D07B33BD /* IHKeyboardAvoiding-prefix.pch */,
+				75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */,
+				24F5AA3F44A20EA7162A109838A89E0A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F313ABA16D1190FE73E54E3D4DAF5B74 /* Pods-分錢寶 */ = {
+			isa = PBXGroup;
+			children = (
+				0667E3708BC5BA89FD7E10460F1372D0 /* Info.plist */,
+				D2C2DDBA5F07E4B6A677524E539B5481 /* Pods-分錢寶.modulemap */,
+				5E07096532DCEEBBE9AC047924CC0363 /* Pods-分錢寶-acknowledgements.markdown */,
+				2BEED895C02D6AFFEFC10D84FE06295B /* Pods-分錢寶-acknowledgements.plist */,
+				D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */,
+				AB803A6AC0E0BAFCD05BCC0E99AE33CC /* Pods-分錢寶-frameworks.sh */,
+				8F9C43CB36D51BEA6223DFD386AC6A7C /* Pods-分錢寶-resources.sh */,
+				71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */,
+				3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */,
+				3CAD55FAFCF5CF6BD560FBD98F7473AD /* Pods-分錢寶.release.xcconfig */,
+			);
+			name = "Pods-分錢寶";
+			path = "Target Support Files/Pods-分錢寶";
+			sourceTree = "<group>";
+		};
+		FD84DBDA38CF669EC83F0F2F1199AA38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3506EECCDEB1A448A69AD0D25C2C5A1A /* IHKeyboardAvoiding */,
+				927DE9CB1AC5B430F55C7163B2FFC542 /* TwicketSegmentedControl */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6F63340A5B1E053C3D5B5188D90E132 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				21ABC4E991DA509E593FFD55517FD4E6 /* PagingMenuController.framework */,
-				9A07499BE9FB1F7E74393453A1B458BE /* Pods___.framework */,
-				E994DB412D92D2BBACE365ADD90A9599 /* TwicketSegmentedControl.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CB9C4FDFD259A5E617352730EAA59DD /* Headers */ = {
+		564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB607D7EEDDDAB1F01E4570AD25E84C0 /* Pods-分帳-umbrella.h in Headers */,
+				EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B2F636A1E94C0210F3CFA00D0B459AE /* Headers */ = {
+		B0CCE453A24B83345CCD60813F65D242 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFB5CBF749DB596C9276F095A768F50 /* TwicketSegmentedControl-umbrella.h in Headers */,
+				D6E693D489ECED2C2243E8A2F97536D9 /* TwicketSegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5C302DBC5B51659D06BBA33D41FB129 /* Headers */ = {
+		BB64F861107F3C729350FCDD40C9A754 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6149CEA68EFAC40C8A3AEA09621C99AA /* PagingMenuController-umbrella.h in Headers */,
+				09683AF77DBDA84472F6D803A8508FC1 /* Pods-分錢寶-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F3469FB7DC541E07731A6C7733479FE /* Pods-分帳 */ = {
+		033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A3FF7F9BC7B454EB310910224D7BECD /* Build configuration list for PBXNativeTarget "Pods-分帳" */;
+			buildConfigurationList = B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
 			buildPhases = (
-				D808879AF6BDD336EA4F65CB1458A1A0 /* Sources */,
-				E8B5EA0CE2343A96E77FF8D9D30D930F /* Frameworks */,
-				1CB9C4FDFD259A5E617352730EAA59DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EA73AB16B615780F383BD5019288AC6 /* PBXTargetDependency */,
-				39073F5134B078AFC8A52749AFED372C /* PBXTargetDependency */,
-			);
-			name = "Pods-分帳";
-			productName = "Pods-分帳";
-			productReference = 9A07499BE9FB1F7E74393453A1B458BE /* Pods___.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */;
-			buildPhases = (
-				934C8100011617FC9736BF48C821CFDD /* Sources */,
-				03E7C3DF47D01DDC32E252295081A592 /* Frameworks */,
-				B5C302DBC5B51659D06BBA33D41FB129 /* Headers */,
+				B888D5387385FB7503B8E94F0019DBA4 /* Sources */,
+				4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */,
+				564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PagingMenuController;
-			productName = PagingMenuController;
-			productReference = 21ABC4E991DA509E593FFD55517FD4E6 /* PagingMenuController.framework */;
+			name = IHKeyboardAvoiding;
+			productName = IHKeyboardAvoiding;
+			productReference = 47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C775CBB7BFF6877AD966116C48B57ADC /* TwicketSegmentedControl */ = {
+		33157160600F7C4D790498A512A0076A /* Pods-分錢寶 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE1227E253B5609E716BF4040306B35E /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
+			buildConfigurationList = E6AA3E819941779686E96277E39E36FB /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */;
 			buildPhases = (
-				FCD9FD4931CEAA89877AA8E2EA780A5D /* Sources */,
-				FB316219D4A24B3B3321FAA04F93A821 /* Frameworks */,
-				7B2F636A1E94C0210F3CFA00D0B459AE /* Headers */,
+				6B39B8F36B452BE02D482718F90B6D3E /* Sources */,
+				0C607FE1DC12042D36F3812554A7F9BF /* Frameworks */,
+				BB64F861107F3C729350FCDD40C9A754 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1861182DB8C8A87AA270CD12DD658F8 /* PBXTargetDependency */,
+				933B3F272C04A9F5EAD83A6E4733FC67 /* PBXTargetDependency */,
+			);
+			name = "Pods-分錢寶";
+			productName = "Pods-分錢寶";
+			productReference = 8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F065F47F923683B590B3C72C845171C /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
+			buildPhases = (
+				3562E38E7BD2B5D5C6DC343567411159 /* Sources */,
+				8BD5CBBDF43296D8E5E8EED2FD2BBB55 /* Frameworks */,
+				B0CCE453A24B83345CCD60813F65D242 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -324,7 +310,7 @@
 			);
 			name = TwicketSegmentedControl;
 			productName = TwicketSegmentedControl;
-			productReference = E994DB412D92D2BBACE365ADD90A9599 /* TwicketSegmentedControl.framework */;
+			productReference = 95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -344,67 +330,61 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C6F63340A5B1E053C3D5B5188D90E132 /* Products */;
+			productRefGroup = 76A968A8EB2CA2A91350B2F188386D83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */,
-				0F3469FB7DC541E07731A6C7733479FE /* Pods-分帳 */,
-				C775CBB7BFF6877AD966116C48B57ADC /* TwicketSegmentedControl */,
+				033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */,
+				33157160600F7C4D790498A512A0076A /* Pods-分錢寶 */,
+				F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		934C8100011617FC9736BF48C821CFDD /* Sources */ = {
+		3562E38E7BD2B5D5C6DC343567411159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5D6BEA1F90F2C2ABE3F31AF0950D44 /* MenuItemView.swift in Sources */,
-				2BB214A9CFE44C92CC55CDE0FC6826BC /* MenuItemViewCustomizable.swift in Sources */,
-				957660A973E90928832154EBFD34ABD8 /* MenuView.swift in Sources */,
-				BDF893F95D3ADCD76B46BB4C72C647B8 /* MenuViewCustomizable.swift in Sources */,
-				EA98CA3B22E2FE57EE465FEF4894B8B0 /* Pagable.swift in Sources */,
-				3DBFA5146ABB5655231E2EDC8EA94917 /* PagingMenuController-dummy.m in Sources */,
-				58917BC8E1610B47CE951F3D0F8EAC9E /* PagingMenuController.swift in Sources */,
-				AFD54A8EC84E109CD73007EFE54247DD /* PagingMenuControllerCustomizable.swift in Sources */,
-				846E5CA01F3D6EBCE45085A1D0B0C982 /* PagingViewController.swift in Sources */,
+				8000EBBF957B9BD0D7E766503CA58D7B /* Palette.swift in Sources */,
+				B56FA30914A6050731F29358E87D2BB5 /* TwicketSegmentedControl-dummy.m in Sources */,
+				915CE1522B286DB476E0495CEBF21DBE /* TwicketSegmentedControl.swift in Sources */,
+				E75A907A493ED7B57B99BF0B2541876F /* UIViewShadowExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D808879AF6BDD336EA4F65CB1458A1A0 /* Sources */ = {
+		6B39B8F36B452BE02D482718F90B6D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E81CF8FEF37BFB8A6837DFD12A5C88 /* Pods-分帳-dummy.m in Sources */,
+				D4BDC6B780BEBDB3B9B25A4D6C84DD4A /* Pods-分錢寶-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCD9FD4931CEAA89877AA8E2EA780A5D /* Sources */ = {
+		B888D5387385FB7503B8E94F0019DBA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBCB51E6A1626A1A76523E16187F5A4E /* Palette.swift in Sources */,
-				E81A1D7998CC83E2E9D916E63571EC59 /* TwicketSegmentedControl-dummy.m in Sources */,
-				4AF63A748829D4F5C4E1965C27A28EC5 /* TwicketSegmentedControl.swift in Sources */,
-				0D2169609793A9CAF06A2E48705C3A20 /* UIViewShadowExtension.swift in Sources */,
+				4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */,
+				21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */,
+				C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EA73AB16B615780F383BD5019288AC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PagingMenuController;
-			target = 6ADB3656BDFD85FB77E0CAB44BFF61E6 /* PagingMenuController */;
-			targetProxy = 95D2BEF5120B5A31B288F80CCB7A6AC0 /* PBXContainerItemProxy */;
-		};
-		39073F5134B078AFC8A52749AFED372C /* PBXTargetDependency */ = {
+		933B3F272C04A9F5EAD83A6E4733FC67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwicketSegmentedControl;
-			target = C775CBB7BFF6877AD966116C48B57ADC /* TwicketSegmentedControl */;
-			targetProxy = 10653F73D9E204C6394FBC97DCE76A89 /* PBXContainerItemProxy */;
+			target = F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */;
+			targetProxy = FA90358BBDAD4EF946038843EF4831D8 /* PBXContainerItemProxy */;
+		};
+		B1861182DB8C8A87AA270CD12DD658F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHKeyboardAvoiding;
+			target = 033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */;
+			targetProxy = CA56AC18A12C1E5D8196C7B547F27AFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -453,78 +433,9 @@
 			};
 			name = Debug;
 		};
-		32B20A01FE5C4C32A2F8C3332B645FE0 /* Release */ = {
+		55D491C6386A677DD8021264D0D9F397 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73300DC72B6F25A109441264F2C42E9B /* PagingMenuController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PagingMenuController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		390E7E0C2E37D209B0F1A075CE68C46B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5279C3BEF1C8A3D1E06DB4C4A41625D1 /* Pods-分帳.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-分帳/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-分帳/Pods-分帳.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods___;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D5AC364C2F78C5F9030A16B062B523C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA80D8545096D106ADC0B4B663F77AE /* TwicketSegmentedControl.xcconfig */;
+			baseConfigurationReference = C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -555,9 +466,45 @@
 			};
 			name = Debug;
 		};
-		AB2E94FAB630989485DEA1257D85D1D6 /* Release */ = {
+		75733DFC324ADF8ABD2D73E36D0BB5AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA80D8545096D106ADC0B4B663F77AE /* TwicketSegmentedControl.xcconfig */;
+			baseConfigurationReference = 3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-分錢寶/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-分錢寶/Pods-分錢寶.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods____;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB067585A028F6E80222B0F5C1FE1F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAD55FAFCF5CF6BD560FBD98F7473AD /* Pods-分錢寶.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -570,26 +517,62 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-分錢寶/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-分錢寶/Pods-分錢寶.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TwicketSegmentedControl;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods____;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D98BB5425AAAA004BE0D5930626C8F08 /* Release */ = {
+		DB206F1507484136C7D40AF760021F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F09B474D0A1901A285D5A8ABB0A3EF /* Pods-分帳.release.xcconfig */;
+			baseConfigurationReference = 60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E42282E971998B32183521E0D952D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -602,18 +585,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-分帳/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-分帳/Pods-分帳.modulemap";
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods___;
+				PRODUCT_NAME = IHKeyboardAvoiding;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -663,38 +642,37 @@
 			};
 			name = Release;
 		};
-		EB140DFB16C04F5AA26250B00553EC94 /* Debug */ = {
+		F8ADAE2BA95F3C28EF220CA3943F6338 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73300DC72B6F25A109441264F2C42E9B /* PagingMenuController.xcconfig */;
+			baseConfigurationReference = C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PagingMenuController/PagingMenuController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PagingMenuController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PagingMenuController/PagingMenuController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PagingMenuController;
+				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TwicketSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -708,29 +686,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A3FF7F9BC7B454EB310910224D7BECD /* Build configuration list for PBXNativeTarget "Pods-分帳" */ = {
+		5F065F47F923683B590B3C72C845171C /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				390E7E0C2E37D209B0F1A075CE68C46B /* Debug */,
-				D98BB5425AAAA004BE0D5930626C8F08 /* Release */,
+				55D491C6386A677DD8021264D0D9F397 /* Debug */,
+				F8ADAE2BA95F3C28EF220CA3943F6338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		974BAC4FE33349DBFEA2FDAE7D508C0A /* Build configuration list for PBXNativeTarget "PagingMenuController" */ = {
+		B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB140DFB16C04F5AA26250B00553EC94 /* Debug */,
-				32B20A01FE5C4C32A2F8C3332B645FE0 /* Release */,
+				DB206F1507484136C7D40AF760021F7C /* Debug */,
+				E42282E971998B32183521E0D952D581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE1227E253B5609E716BF4040306B35E /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
+		E6AA3E819941779686E96277E39E36FB /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D5AC364C2F78C5F9030A16B062B523C /* Debug */,
-				AB2E94FAB630989485DEA1257D85D1D6 /* Release */,
+				75733DFC324ADF8ABD2D73E36D0BB5AC /* Debug */,
+				BB067585A028F6E80222B0F5C1FE1F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

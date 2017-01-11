@@ -13,5 +13,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var markColor: UIView!
     @IBOutlet var itemNameLabel: UILabel!
     @IBOutlet var itemPriceLabel: UILabel!
+    @IBOutlet weak var deleteButton: UIButton!
+    @IBOutlet weak var editButton: UIButton!
     
 }

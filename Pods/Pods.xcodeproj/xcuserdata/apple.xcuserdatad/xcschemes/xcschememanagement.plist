@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PagingMenuController.xcscheme</key>
+		<key>IHKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-分帳.xcscheme</key>
+		<key>Pods-分錢寶.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F3469FB7DC541E07731A6C7733479FE</key>
+		<key>033B2F5EFC98402794E5FA4A2E42BD9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6ADB3656BDFD85FB77E0CAB44BFF61E6</key>
+		<key>33157160600F7C4D790498A512A0076A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C775CBB7BFF6877AD966116C48B57ADC</key>
+		<key>F00AEF4A0EEE13C4BB927B8484B062B0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

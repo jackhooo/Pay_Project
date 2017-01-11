@@ -1,15 +1,15 @@
 PODS:
-  - PagingMenuController (2.1.1)
+  - IHKeyboardAvoiding (3.4)
   - TwicketSegmentedControl (0.1.1)
 
 DEPENDENCIES:
-  - PagingMenuController
+  - IHKeyboardAvoiding
   - TwicketSegmentedControl
 
 SPEC CHECKSUMS:
-  PagingMenuController: 394af0edd93ae6d574e138df0bb458f81b355646
+  IHKeyboardAvoiding: b51e35985cced32292c2e9348b2e96015bb49b8e
   TwicketSegmentedControl: bbb2d155792dbfcee7fea995a614d0c0a3de4a16
 
-PODFILE CHECKSUM: f560f4b3fefbf7006cfc5841dd3bba7a3911a4dc
+PODFILE CHECKSUM: 01e373f794ae05be722d892e76b28a24ef59132b
 
 COCOAPODS: 1.1.1

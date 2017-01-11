@@ -8,9 +8,15 @@
 
 import UIKit
 
+var isEdit = 0
+
+var toEditItem = ""
+
 class ItemViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
     var project:Project!
+    var selectItemName = ""
+    var selectItemNum = 0
     
     @IBOutlet weak var itemCollectionView: UICollectionView!
     
@@ -47,15 +53,95 @@ class ItemViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
             cell.markColor.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
         }
-
+        
         
         cell.itemNameLabel.text = project.items[(indexPath as NSIndexPath).row]
         
         cell.itemPriceLabel.text = String(project.itemTotalPay(item: project.items[(indexPath as NSIndexPath).row]))
-
+        
+        cell.editButton.isHidden = true
+        cell.deleteButton.isHidden = true
+        
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
+    {
+        //let cell = collectionView.cellForItem(at: indexPath)
+        
+        let cell = collectionView.cellForItem(at: indexPath) as! ItemCollectionViewCell
+        
+        if(cell.editButton.isHidden == false)
+        {
+            
+            for x in 0..<itemCollectionView.visibleCells.count{
+                
+                let everyCell = itemCollectionView.visibleCells[x] as! ItemCollectionViewCell
+                
+                everyCell.editButton.isHidden = true
+                everyCell.deleteButton.isHidden = true
+            }
+        }
+        else
+        {
+            for x in 0..<itemCollectionView.visibleCells.count{
+                
+                let everyCell = itemCollectionView.visibleCells[x] as! ItemCollectionViewCell
+                
+                everyCell.editButton.isHidden = true
+                everyCell.deleteButton.isHidden = true
+                
+                cell.editButton.isHidden = false
+                cell.deleteButton.isHidden = false
+                
+            }
+            
+            cell.editButton.isHidden = false
+            cell.deleteButton.isHidden = false
+            
+        }
+        
+        selectItemName = cell.itemNameLabel.text!
+        selectItemNum = project.getItemNum(item: selectItemName)
+    }
+    
+    @IBAction func deleteCells(_ sender: AnyObject) {
+        
+        var projectNum = 0
+        
+        for whitchProject in projects{
+            
+            if(whitchProject.projectName == project.projectName){
+                break
+            }
+            else{
+                projectNum += 1
+            }
+        }
+        
+        projects[projectNum].itemsDetail.removeValue(forKey:selectItemName)
+        
+        projects[projectNum].items.remove(at: selectItemNum)
+        
+        for removeMember in projects[projectNum].members{
+            projects[projectNum].membersDetail[removeMember]!.remove(at: selectItemNum)
+        }
+        
+        itemCollectionView.reloadData()
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
+    }
+    
+    @IBAction func editMode(_ sender: AnyObject) {
+    
+        isEdit = 1
+        toEditItem = selectItemName
+    }
+    
+    @IBAction func unwindToHomeScreen(_ segue:UIStoryboardSegue) {
+        isEdit = 0
+    }
+
     //SaveData
     
     override func viewWillAppear(_ animated: Bool) {
@@ -69,8 +155,5 @@ class ItemViewController: UIViewController, UICollectionViewDelegate, UICollecti
             addItemSaveButton = 0
         }
     }
-
     
-    @IBAction func deleteCells(_ sender: AnyObject) {}
-
 }

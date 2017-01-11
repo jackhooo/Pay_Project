@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F00AEF4A0EEE13C4BB927B8484B062B0'
-               BlueprintName = 'TwicketSegmentedControl'
+               BlueprintIdentifier = '033B2F5EFC98402794E5FA4A2E42BD9F'
+               BlueprintName = 'IHKeyboardAvoiding'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TwicketSegmentedControl.framework'>
+               BuildableName = 'IHKeyboardAvoiding.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

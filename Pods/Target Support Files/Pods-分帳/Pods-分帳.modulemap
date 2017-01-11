@@ -1,6 +1,0 @@
-framework module Pods___ {
-  umbrella header "Pods-分帳-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -11,7 +11,7 @@ import UIKit
 var addItemSaveButton = 0
 
 class AddItemViewController: UIViewController {
-
+    
     @IBOutlet weak var itemNameText: UITextField!
     @IBOutlet weak var itemPriceText: UITextField!
     
@@ -19,14 +19,13 @@ class AddItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        if(isEdit == 1){
+            itemNameText.text = toEditItem
+            itemPriceText.text = String(memberItemproject.itemTotalPay(item: toEditItem))
+        }
     }
-
-
+    
     @IBAction func save(_ sender:UIBarButtonItem) {
-        
-        //print(date.date.description)
-        
         // Validate input fields
         
         if (itemNameText.text == "" || itemPriceText.text == "")
@@ -55,7 +54,7 @@ class AddItemViewController: UIViewController {
         }
         
         var projectNum = 0
-
+        
         for project in projects{
             
             if(project.projectName == memberItemproject.projectName){
@@ -66,24 +65,66 @@ class AddItemViewController: UIViewController {
             }
         }
         
-        projects[projectNum].items.append(itemNameText.text!)
-        
-        for member in  projects[projectNum].members{
-
-            if(projects[projectNum].membersDetail[member] == nil){
-                projects[projectNum].membersDetail[member] = []
+        if(isEdit == 0){
+            
+            projects[projectNum].items.append(itemNameText.text!)
+            
+            for member in  projects[projectNum].members{
+                
+                if(projects[projectNum].membersDetail[member] == nil){
+                    projects[projectNum].membersDetail[member] = []
+                }
+                
+                if( whoPayList[ projects[projectNum].getMemberNum(member: member)] == 1){
+                    
+                    projects[projectNum].membersDetail[member]!.append(Int(itemPriceText.text!)!/whoPayNum)
+                }
+                else{
+                    projects[projectNum].membersDetail[member]!.append(0)
+                }
             }
             
-            if( whoPayList[ projects[projectNum].getMemberNum(member: member)] == 1){
-                
-                projects[projectNum].membersDetail[member]!.append(Int(itemPriceText.text!)!/whoPayNum)
-            }
-            else{
-                projects[projectNum].membersDetail[member]!.append(0)
-            }
+            projects[projectNum].itemsDetail[itemNameText.text!] = whoEatList
+            
+            
+            print(projects[projectNum].items)
+            print(projects[projectNum].membersDetail)
+            print(projects[projectNum].itemsDetail)
         }
-        
-        projects[projectNum].itemsDetail[itemNameText.text!] = whoEatList
+        else{
+            
+            print(projects[projectNum].items[projects[projectNum].getItemNum(item: toEditItem)])
+            
+            projects[projectNum].items[projects[projectNum].getItemNum(item: toEditItem)] = itemNameText.text!
+            
+            for member in  projects[projectNum].members{
+                
+                if(projects[projectNum].membersDetail[member] == nil){
+                    projects[projectNum].membersDetail[member] = []
+                }
+                
+                if( whoPayList[projects[projectNum].getMemberNum(member: member)] == 1){
+                    
+                    projects[projectNum].membersDetail[member]![projects[projectNum].getItemNum(item: toEditItem)] = Int(itemPriceText.text!)! / whoPayNum
+                }
+                else{
+                    projects[projectNum].membersDetail[member]![projects[projectNum].getItemNum(item: toEditItem)] = 0
+                }
+            }
+            
+            if(toEditItem != itemNameText.text!)
+            {
+                projects[projectNum].itemsDetail.removeValue(forKey:toEditItem)
+            }
+            
+            projects[projectNum].itemsDetail[itemNameText.text!] = []
+            
+            projects[projectNum].itemsDetail[itemNameText.text!] = whoEatList
+            
+            print(projects[projectNum].items)
+            print(projects[projectNum].membersDetail)
+            print(projects[projectNum].itemsDetail)
+        }
         
         addItemSaveButton = 2
         
@@ -91,13 +132,10 @@ class AddItemViewController: UIViewController {
         
         whoEatNum = 0
         
-        
-        print(projects[projectNum].items)
-        print(projects[projectNum].membersDetail)
-        print(projects[projectNum].itemsDetail)
+        isEdit = 0
         
         // Dismiss the view controller
         dismiss(animated: true, completion: nil)
     }
-
+    
 }

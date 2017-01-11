@@ -35,8 +35,7 @@ class MemberItemViewController: UIViewController {
             action: nil
         );
         
-         navigationItem.title = project.projectName
-        
+        navigationItem.title = project.projectName
         
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton;
         
@@ -58,8 +57,6 @@ class MemberItemViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    
     
     // MARK: - Navigation
     

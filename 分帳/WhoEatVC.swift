@@ -16,8 +16,24 @@ class WhoEatViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.        
-        whoEatList = Array(repeating: 0, count: memberItemproject.members.count)
+        // Do any additional setup after loading the view, typically from a nib.
+        if(isEdit == 1){
+            
+            whoEatList = memberItemproject.itemsDetail[toEditItem]!
+            
+            for x in memberItemproject.itemsDetail[toEditItem]!{
+                
+                if(x == 1)
+                {
+                    whoEatNum += 1
+                }
+            }
+        }
+        else
+        {
+            whoEatList = Array(repeating: 0, count: memberItemproject.members.count)
+        }
+        
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int
@@ -34,9 +50,16 @@ class WhoEatViewController: UIViewController, UICollectionViewDelegate, UICollec
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "WhoEatCell", for: indexPath) as! WhoEatCollectionViewCell
         
-        cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
-        
         //print(memberItemproject.members)
+        
+        if(whoEatList[(indexPath as NSIndexPath).row] == 1)
+        {
+            cell.backgroundColor = UIColor(red: 242.0/255.0, green: 116.0/255.0, blue: 119.0/255.0, alpha: 1.0)
+        }
+        else
+        {
+            cell.backgroundColor = UIColor(red: 255.0/255.0, green: 192.0/255.0, blue: 181.0/255.0, alpha: 1.0)
+        }
         
         cell.memberLabel.text = memberItemproject.members[(indexPath as NSIndexPath).row]
         
