@@ -7,99 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09683AF77DBDA84472F6D803A8508FC1 /* Pods-分錢寶-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */; };
-		4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */; };
-		55813D2C72ABDFBBEAB56424B53C7E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		8000EBBF957B9BD0D7E766503CA58D7B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */; };
-		915CE1522B286DB476E0495CEBF21DBE /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */; };
-		B56FA30914A6050731F29358E87D2BB5 /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */; };
-		C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */; };
-		D4BDC6B780BEBDB3B9B25A4D6C84DD4A /* Pods-分錢寶-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */; };
-		D6E693D489ECED2C2243E8A2F97536D9 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E19B50BA6ACC8421E6BA875E440D19E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		E75A907A493ED7B57B99BF0B2541876F /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */; };
-		EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237ED14EDCEED6721AB249687057D165 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3F42BD2531FC6CAA94BA61EE0893C /* UIViewShadowExtension.swift */; };
+		3965FE8A76578A07BD9AEEBA2A3959D1 /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F0BEF335A6EAA119544FF4C506FBD1 /* TwicketSegmentedControl.swift */; };
+		499F4BF6F1F4C780FC0C7BC4C384B537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		58CA300B2D57D468746035FC01D5945D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5DF40B58E544BDD54730BFE79A32FC5F /* Pods-分錢寶-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */; };
+		5FDF79DF5D9D15A76D09B6941BF325FA /* Pods-分錢寶-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10CB92970463323DBA5259EF87B4490 /* TwicketSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5F2ED3C5A9C6C98A38427F68E63064 /* TwicketSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF6AD34A76522E5917C7F8423A4D824F /* TwicketSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A9D9853B98AF03E2E47B1A81E945A5 /* TwicketSegmentedControl-dummy.m */; };
+		EBF304460B9337E4D6A44536E38B7292 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958E558CF186947C12A6488B1AEB88C5 /* Palette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CA56AC18A12C1E5D8196C7B547F27AFA /* PBXContainerItemProxy */ = {
+		0CF69F487D27E85F9871B76C9FB66EF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 033B2F5EFC98402794E5FA4A2E42BD9F;
-			remoteInfo = IHKeyboardAvoiding;
-		};
-		FA90358BBDAD4EF946038843EF4831D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F00AEF4A0EEE13C4BB927B8484B062B0;
+			remoteGlobalIDString = EAA55164F851D4082BF86B92966628B8;
 			remoteInfo = TwicketSegmentedControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0667E3708BC5BA89FD7E10460F1372D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
-		0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
-		129F4C80888CAA432B4F03D8D67B1E84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1563CBA60893C1C534BB12E6914B6E91 /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
-		24F5AA3F44A20EA7162A109838A89E0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BEED895C02D6AFFEFC10D84FE06295B /* Pods-分錢寶-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-分錢寶-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分錢寶.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5F2ED3C5A9C6C98A38427F68E63064 /* TwicketSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
 		3CAD55FAFCF5CF6BD560FBD98F7473AD /* Pods-分錢寶.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-分錢寶.release.xcconfig"; sourceTree = "<group>"; };
-		46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
-		47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C1F6A97D8894F063BFC4D1FAA23333 /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C4BCB583A87C05B3D2B38CE2303A81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E07096532DCEEBBE9AC047924CC0363 /* Pods-分錢寶-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-分錢寶-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62A9D9853B98AF03E2E47B1A81E945A5 /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		71243782669CD3B1C40F4B3AFB747137 /* Pods-分錢寶-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-分錢寶-umbrella.h"; sourceTree = "<group>"; };
-		75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
-		7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods____.framework; path = "Pods-分錢寶.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F0BEF335A6EAA119544FF4C506FBD1 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
 		8F9C43CB36D51BEA6223DFD386AC6A7C /* Pods-分錢寶-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分錢寶-resources.sh"; sourceTree = "<group>"; };
-		92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwicketSegmentedControl.swift; path = TwicketSegmentedControl/TwicketSegmentedControl.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwicketSegmentedControl.framework; path = TwicketSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A27F9277992B794FEA54F82E6305F762 /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
-		A3012FE35A316A21C6969285D07B33BD /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		958E558CF186947C12A6488B1AEB88C5 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
 		AB803A6AC0E0BAFCD05BCC0E99AE33CC /* Pods-分錢寶-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-分錢寶-frameworks.sh"; sourceTree = "<group>"; };
-		C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
-		D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		B93E6A8E8EFA5F640445457AB5F7077F /* TwicketSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwicketSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		BE07213950ADAE34E53A1F2B28C7A4F8 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods____.framework; path = "Pods-分錢寶.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2C2DDBA5F07E4B6A677524E539B5481 /* Pods-分錢寶.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-分錢寶.modulemap"; sourceTree = "<group>"; };
+		D5E3F42BD2531FC6CAA94BA61EE0893C /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewShadowExtension.swift; path = TwicketSegmentedControl/UIViewShadowExtension.swift; sourceTree = "<group>"; };
+		D8402C598494CC9CB26AD1CD1849D257 /* TwicketSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwicketSegmentedControl.modulemap; sourceTree = "<group>"; };
+		D911397C7A3A317B95D4C0D93B525F67 /* TwicketSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwicketSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
 		D92532DFBC7A489FB3E69E7E0CCF420F /* Pods-分錢寶-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-分錢寶-dummy.m"; sourceTree = "<group>"; };
-		D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = TwicketSegmentedControl/Palette.swift; sourceTree = "<group>"; };
-		FA73F0D45A016F6295BDC37E2168EB30 /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
-		FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwicketSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C607FE1DC12042D36F3812554A7F9BF /* Frameworks */ = {
+		33043244BCA7AA1E80E1C7F15523FF90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55813D2C72ABDFBBEAB56424B53C7E26 /* Foundation.framework in Frameworks */,
+				58CA300B2D57D468746035FC01D5945D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */ = {
+		5AFBAD5D5055AA5A99A67E9F5BA4A3E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ECBE0A2291F098FE03B78499141E637 /* Foundation.framework in Frameworks */,
-				E7432B2B4518AB5C23C0F1C685467192 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BD5CBBDF43296D8E5E8EED2FD2BBB55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19B50BA6ACC8421E6BA875E440D19E5 /* Foundation.framework in Frameworks */,
+				499F4BF6F1F4C780FC0C7BC4C384B537 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,93 +82,74 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3506EECCDEB1A448A69AD0D25C2C5A1A /* IHKeyboardAvoiding */ = {
+		26A22D3B1584CC43BA0BFD3CC1E83F01 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0AA5E89921DB7C4BB607CE7720FC305 /* KeyboardAvoiding.swift */,
-				46E8853C02842FA7EE5A706FAD938243 /* KeyboardDismissingView.swift */,
-				B1BAAC06DF65E06107B084E82C2948C1 /* Support Files */,
+				57C4BCB583A87C05B3D2B38CE2303A81 /* Info.plist */,
+				D8402C598494CC9CB26AD1CD1849D257 /* TwicketSegmentedControl.modulemap */,
+				B93E6A8E8EFA5F640445457AB5F7077F /* TwicketSegmentedControl.xcconfig */,
+				62A9D9853B98AF03E2E47B1A81E945A5 /* TwicketSegmentedControl-dummy.m */,
+				D911397C7A3A317B95D4C0D93B525F67 /* TwicketSegmentedControl-prefix.pch */,
+				3C5F2ED3C5A9C6C98A38427F68E63064 /* TwicketSegmentedControl-umbrella.h */,
 			);
-			name = IHKeyboardAvoiding;
-			path = IHKeyboardAvoiding;
+			name = "Support Files";
+			path = "../Target Support Files/TwicketSegmentedControl";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		3921AF1F912AA7BD12493F24F0C670B6 /* TwicketSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+				958E558CF186947C12A6488B1AEB88C5 /* Palette.swift */,
+				81F0BEF335A6EAA119544FF4C506FBD1 /* TwicketSegmentedControl.swift */,
+				D5E3F42BD2531FC6CAA94BA61EE0893C /* UIViewShadowExtension.swift */,
+				26A22D3B1584CC43BA0BFD3CC1E83F01 /* Support Files */,
 			);
-			name = Frameworks;
+			name = TwicketSegmentedControl;
+			path = TwicketSegmentedControl;
 			sourceTree = "<group>";
 		};
-		76A968A8EB2CA2A91350B2F188386D83 /* Products */ = {
+		423C15BFC7067F62AD257EF2BDE73F68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */,
-				8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */,
-				95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */,
+				BE07213950ADAE34E53A1F2B28C7A4F8 /* Pods____.framework */,
+				43C1F6A97D8894F063BFC4D1FAA23333 /* TwicketSegmentedControl.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				FD84DBDA38CF669EC83F0F2F1199AA38 /* Pods */,
-				76A968A8EB2CA2A91350B2F188386D83 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BDC67CD0199D90D16A01B422CDE0DD98 /* Pods */,
+				423C15BFC7067F62AD257EF2BDE73F68 /* Products */,
 				0B47A86A021ABDE3CE4FF32166EA5FBD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		927DE9CB1AC5B430F55C7163B2FFC542 /* TwicketSegmentedControl */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D937FDEB4752EA15D5E1E7F6176D27E6 /* Palette.swift */,
-				92D5A686ED62F4EF9BA66A184AED5195 /* TwicketSegmentedControl.swift */,
-				09050F1E84DAC7BC520AF21439B3A8AB /* UIViewShadowExtension.swift */,
-				9978873F267A55BEF91B237593BFF548 /* Support Files */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
-			name = TwicketSegmentedControl;
-			path = TwicketSegmentedControl;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9978873F267A55BEF91B237593BFF548 /* Support Files */ = {
+		BDC67CD0199D90D16A01B422CDE0DD98 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				129F4C80888CAA432B4F03D8D67B1E84 /* Info.plist */,
-				1563CBA60893C1C534BB12E6914B6E91 /* TwicketSegmentedControl.modulemap */,
-				C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */,
-				FD822C245DEF7C099D1BEA7EF8334DFB /* TwicketSegmentedControl-dummy.m */,
-				A27F9277992B794FEA54F82E6305F762 /* TwicketSegmentedControl-prefix.pch */,
-				0FC2CFC410D9F07ABFFAD1B30B4EE0F7 /* TwicketSegmentedControl-umbrella.h */,
+				3921AF1F912AA7BD12493F24F0C670B6 /* TwicketSegmentedControl */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TwicketSegmentedControl";
-			sourceTree = "<group>";
-		};
-		B1BAAC06DF65E06107B084E82C2948C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA73F0D45A016F6295BDC37E2168EB30 /* IHKeyboardAvoiding.modulemap */,
-				60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */,
-				7B7D232499D3797665E436F768D51C5E /* IHKeyboardAvoiding-dummy.m */,
-				A3012FE35A316A21C6969285D07B33BD /* IHKeyboardAvoiding-prefix.pch */,
-				75D26EC347436B2F5C5672A0AFE91E38 /* IHKeyboardAvoiding-umbrella.h */,
-				24F5AA3F44A20EA7162A109838A89E0A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IHKeyboardAvoiding";
-			sourceTree = "<group>";
-		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F313ABA16D1190FE73E54E3D4DAF5B74 /* Pods-分錢寶 */ = {
@@ -221,88 +170,35 @@
 			path = "Target Support Files/Pods-分錢寶";
 			sourceTree = "<group>";
 		};
-		FD84DBDA38CF669EC83F0F2F1199AA38 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3506EECCDEB1A448A69AD0D25C2C5A1A /* IHKeyboardAvoiding */,
-				927DE9CB1AC5B430F55C7163B2FFC542 /* TwicketSegmentedControl */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */ = {
+		5702B8B3D54F37479B143F55ABB3E7D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA49F55F1E15D22FB191CD55127BC5E /* IHKeyboardAvoiding-umbrella.h in Headers */,
+				B10CB92970463323DBA5259EF87B4490 /* TwicketSegmentedControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0CCE453A24B83345CCD60813F65D242 /* Headers */ = {
+		B84265B39532D1F3BC37457F10545CAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E693D489ECED2C2243E8A2F97536D9 /* TwicketSegmentedControl-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB64F861107F3C729350FCDD40C9A754 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09683AF77DBDA84472F6D803A8508FC1 /* Pods-分錢寶-umbrella.h in Headers */,
+				5FDF79DF5D9D15A76D09B6941BF325FA /* Pods-分錢寶-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */ = {
+		EAA55164F851D4082BF86B92966628B8 /* TwicketSegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
+			buildConfigurationList = D890D684090F6674E76DC6A045BEEF58 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
 			buildPhases = (
-				B888D5387385FB7503B8E94F0019DBA4 /* Sources */,
-				4908E3F0460E3C9CDA7C3F4AA26EFF34 /* Frameworks */,
-				564FCFA1B7930D3C3FFA7589F4C4B673 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IHKeyboardAvoiding;
-			productName = IHKeyboardAvoiding;
-			productReference = 47BABA6CA040961188A1C4A363E80CC3 /* IHKeyboardAvoiding.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		33157160600F7C4D790498A512A0076A /* Pods-分錢寶 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6AA3E819941779686E96277E39E36FB /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */;
-			buildPhases = (
-				6B39B8F36B452BE02D482718F90B6D3E /* Sources */,
-				0C607FE1DC12042D36F3812554A7F9BF /* Frameworks */,
-				BB64F861107F3C729350FCDD40C9A754 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1861182DB8C8A87AA270CD12DD658F8 /* PBXTargetDependency */,
-				933B3F272C04A9F5EAD83A6E4733FC67 /* PBXTargetDependency */,
-			);
-			name = "Pods-分錢寶";
-			productName = "Pods-分錢寶";
-			productReference = 8D35CDEF93BD03831792D4A951201410 /* Pods____.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F065F47F923683B590B3C72C845171C /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */;
-			buildPhases = (
-				3562E38E7BD2B5D5C6DC343567411159 /* Sources */,
-				8BD5CBBDF43296D8E5E8EED2FD2BBB55 /* Frameworks */,
-				B0CCE453A24B83345CCD60813F65D242 /* Headers */,
+				D33580EE8F6E98E91FE6E7953855E2DB /* Sources */,
+				33043244BCA7AA1E80E1C7F15523FF90 /* Frameworks */,
+				5702B8B3D54F37479B143F55ABB3E7D0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,7 +206,25 @@
 			);
 			name = TwicketSegmentedControl;
 			productName = TwicketSegmentedControl;
-			productReference = 95C1460DA703C8FAC7AFD2DD69A86AF0 /* TwicketSegmentedControl.framework */;
+			productReference = 43C1F6A97D8894F063BFC4D1FAA23333 /* TwicketSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2C5E08A2B858F80AC07A6E306FBEDC9 /* Pods-分錢寶 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7937E1ABE77CB7DF0B8481247BA2CD2 /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */;
+			buildPhases = (
+				3200638653A779BE80A877D25F3D4091 /* Sources */,
+				5AFBAD5D5055AA5A99A67E9F5BA4A3E7 /* Frameworks */,
+				B84265B39532D1F3BC37457F10545CAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66A5F2E067287A7E9F3F5330AD9A17F /* PBXTargetDependency */,
+			);
+			name = "Pods-分錢寶";
+			productName = "Pods-分錢寶";
+			productReference = BE07213950ADAE34E53A1F2B28C7A4F8 /* Pods____.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,61 +244,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 76A968A8EB2CA2A91350B2F188386D83 /* Products */;
+			productRefGroup = 423C15BFC7067F62AD257EF2BDE73F68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */,
-				33157160600F7C4D790498A512A0076A /* Pods-分錢寶 */,
-				F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */,
+				F2C5E08A2B858F80AC07A6E306FBEDC9 /* Pods-分錢寶 */,
+				EAA55164F851D4082BF86B92966628B8 /* TwicketSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3562E38E7BD2B5D5C6DC343567411159 /* Sources */ = {
+		3200638653A779BE80A877D25F3D4091 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8000EBBF957B9BD0D7E766503CA58D7B /* Palette.swift in Sources */,
-				B56FA30914A6050731F29358E87D2BB5 /* TwicketSegmentedControl-dummy.m in Sources */,
-				915CE1522B286DB476E0495CEBF21DBE /* TwicketSegmentedControl.swift in Sources */,
-				E75A907A493ED7B57B99BF0B2541876F /* UIViewShadowExtension.swift in Sources */,
+				5DF40B58E544BDD54730BFE79A32FC5F /* Pods-分錢寶-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B39B8F36B452BE02D482718F90B6D3E /* Sources */ = {
+		D33580EE8F6E98E91FE6E7953855E2DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4BDC6B780BEBDB3B9B25A4D6C84DD4A /* Pods-分錢寶-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B888D5387385FB7503B8E94F0019DBA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4289A6BA490E261D4AFEBC4797706D6E /* IHKeyboardAvoiding-dummy.m in Sources */,
-				21662C64A371BDF77972D3EFD57A6252 /* KeyboardAvoiding.swift in Sources */,
-				C90E10351CD6B4E34F101420159DE668 /* KeyboardDismissingView.swift in Sources */,
+				EBF304460B9337E4D6A44536E38B7292 /* Palette.swift in Sources */,
+				CF6AD34A76522E5917C7F8423A4D824F /* TwicketSegmentedControl-dummy.m in Sources */,
+				3965FE8A76578A07BD9AEEBA2A3959D1 /* TwicketSegmentedControl.swift in Sources */,
+				237ED14EDCEED6721AB249687057D165 /* UIViewShadowExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		933B3F272C04A9F5EAD83A6E4733FC67 /* PBXTargetDependency */ = {
+		F66A5F2E067287A7E9F3F5330AD9A17F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TwicketSegmentedControl;
-			target = F00AEF4A0EEE13C4BB927B8484B062B0 /* TwicketSegmentedControl */;
-			targetProxy = FA90358BBDAD4EF946038843EF4831D8 /* PBXContainerItemProxy */;
-		};
-		B1861182DB8C8A87AA270CD12DD658F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IHKeyboardAvoiding;
-			target = 033B2F5EFC98402794E5FA4A2E42BD9F /* IHKeyboardAvoiding */;
-			targetProxy = CA56AC18A12C1E5D8196C7B547F27AFA /* PBXContainerItemProxy */;
+			target = EAA55164F851D4082BF86B92966628B8 /* TwicketSegmentedControl */;
+			targetProxy = 0CF69F487D27E85F9871B76C9FB66EF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,15 +330,15 @@
 			};
 			name = Debug;
 		};
-		55D491C6386A677DD8021264D0D9F397 /* Debug */ = {
+		1EB9EE5537BB416CC0D658482207AD7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */;
+			baseConfigurationReference = B93E6A8E8EFA5F640445457AB5F7077F /* TwicketSegmentedControl.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -454,55 +351,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = TwicketSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		75733DFC324ADF8ABD2D73E36D0BB5AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-分錢寶/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-分錢寶/Pods-分錢寶.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods____;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BB067585A028F6E80222B0F5C1FE1F73 /* Release */ = {
+		4506FC9DE2DF0506AEA34C602A8A9794 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CAD55FAFCF5CF6BD560FBD98F7473AD /* Pods-分錢寶.release.xcconfig */;
 			buildSettings = {
@@ -537,9 +397,9 @@
 			};
 			name = Release;
 		};
-		DB206F1507484136C7D40AF760021F7C /* Debug */ = {
+		470BB75160F395C3782B89D17E403F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = B93E6A8E8EFA5F640445457AB5F7077F /* TwicketSegmentedControl.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -552,14 +412,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = TwicketSegmentedControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -570,37 +430,41 @@
 			};
 			name = Debug;
 		};
-		E42282E971998B32183521E0D952D581 /* Release */ = {
+		9DFE8E3885CAE22885064532876CC587 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60C07593AF78F8AA91340AB951CC7B03 /* IHKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = 3C51C0A137A56EFE998D35EE4FD3AC27 /* Pods-分錢寶.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-分錢寶/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = IHKeyboardAvoiding;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-分錢寶/Pods-分錢寶.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods____;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -642,38 +506,6 @@
 			};
 			name = Release;
 		};
-		F8ADAE2BA95F3C28EF220CA3943F6338 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13A803635886286679FFA7166071FC9 /* TwicketSegmentedControl.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TwicketSegmentedControl/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TwicketSegmentedControl/TwicketSegmentedControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TwicketSegmentedControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,29 +518,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F065F47F923683B590B3C72C845171C /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
+		A7937E1ABE77CB7DF0B8481247BA2CD2 /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55D491C6386A677DD8021264D0D9F397 /* Debug */,
-				F8ADAE2BA95F3C28EF220CA3943F6338 /* Release */,
+				9DFE8E3885CAE22885064532876CC587 /* Debug */,
+				4506FC9DE2DF0506AEA34C602A8A9794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B258119BB7B9D52B224581BE8D28E382 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
+		D890D684090F6674E76DC6A045BEEF58 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB206F1507484136C7D40AF760021F7C /* Debug */,
-				E42282E971998B32183521E0D952D581 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6AA3E819941779686E96277E39E36FB /* Build configuration list for PBXNativeTarget "Pods-分錢寶" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				75733DFC324ADF8ABD2D73E36D0BB5AC /* Debug */,
-				BB067585A028F6E80222B0F5C1FE1F73 /* Release */,
+				470BB75160F395C3782B89D17E403F8F /* Debug */,
+				1EB9EE5537BB416CC0D658482207AD7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IHKeyboardAvoiding.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-分錢寶.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>033B2F5EFC98402794E5FA4A2E42BD9F</key>
+		<key>EAA55164F851D4082BF86B92966628B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>33157160600F7C4D790498A512A0076A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F00AEF4A0EEE13C4BB927B8484B062B0</key>
+		<key>F2C5E08A2B858F80AC07A6E306FBEDC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

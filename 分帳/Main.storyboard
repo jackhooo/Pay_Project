@@ -26,7 +26,7 @@
                                     <size key="itemSize" width="363" height="190"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="20"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Yex-qL-cvK" customClass="ProjectCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
@@ -126,7 +126,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94891661405563354" green="0.94907897710800171" blue="0.94890636205673218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YV4-DY-fge" firstAttribute="top" secondItem="a55-sn-6j4" secondAttribute="bottom" constant="20" id="FHI-4q-yEZ"/>
+                            <constraint firstItem="YV4-DY-fge" firstAttribute="top" secondItem="a55-sn-6j4" secondAttribute="bottom" id="FHI-4q-yEZ"/>
                             <constraint firstItem="a55-sn-6j4" firstAttribute="leading" secondItem="Iyi-il-YCT" secondAttribute="leading" id="dFp-PZ-07s"/>
                             <constraint firstAttribute="trailing" secondItem="a55-sn-6j4" secondAttribute="trailing" id="gYp-Dw-Aam"/>
                             <constraint firstItem="a55-sn-6j4" firstAttribute="top" secondItem="Iyi-il-YCT" secondAttribute="top" constant="49" id="nIO-WL-xfP"/>
@@ -457,15 +457,15 @@
             <objects>
                 <tableViewController id="JQv-C4-T2o" customClass="MemberTableViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="39" sectionHeaderHeight="28" sectionFooterHeight="28" id="zf0-aY-bx2">
-                        <rect key="frame" x="0.0" y="0.0" width="327" height="469"/>
+                        <rect key="frame" x="0.0" y="0.0" width="944" height="1354"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberCell" rowHeight="39" id="L7S-st-g5M" customClass="MemberTableViewCell" customModule="分錢寶" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="327" height="39"/>
+                                <rect key="frame" x="0.0" y="28" width="944" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L7S-st-g5M" id="eDs-Rx-5NS">
-                                    <frame key="frameInset" width="327" height="38.5"/>
+                                    <frame key="frameInset" width="944" height="38.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yfl-hp-AKj">
@@ -547,7 +547,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增活動名稱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-NK-AbQ">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增活動名稱" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-NK-AbQ">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -707,7 +707,7 @@
                                     <outlet property="delegate" destination="uTF-ye-996" id="m1A-mK-YgC"/>
                                 </connections>
                             </collectionView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增成員" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-rW-7mA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增成員" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-rW-7mA">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
@@ -764,7 +764,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="輸入項目名稱" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nXi-VE-pYR">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金額" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbg-Ik-jrv">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -784,7 +784,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="新增成員" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwB-yS-G3Z">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="付錢的是" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siG-z0-ZQn">
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -889,7 +889,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nLh-fM-tza" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="l7J-Lb-onX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l7J-Lb-onX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1055,15 +1055,15 @@
             <objects>
                 <tableViewController id="Emc-zV-FdF" customClass="MemberDetailTableViewController" customModule="分錢寶" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="39" sectionHeaderHeight="28" sectionFooterHeight="28" id="cPH-pp-aRO">
-                        <rect key="frame" x="0.0" y="0.0" width="279" height="434.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="888" height="1382.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberDetailCell" rowHeight="39" id="LU6-HJ-xm2" customClass="MemberDetailTableViewCell" customModule="分錢寶" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="279" height="39"/>
+                                <rect key="frame" x="0.0" y="28" width="888" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LU6-HJ-xm2" id="rfF-9v-CQI">
-                                    <frame key="frameInset" width="279" height="38.5"/>
+                                    <frame key="frameInset" width="888" height="38.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoU-6m-J5G">
@@ -1134,7 +1134,7 @@
                         <viewControllerLayoutGuide type="bottom" id="QSa-FL-rKx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lhg-EB-Tox">
-                        <rect key="frame" x="0.0" y="0.0" width="327" height="469"/>
+                        <rect key="frame" x="0.0" y="0.0" width="944" height="1354"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Why-pB-Y2l" customClass="ShadowView" customModule="分錢寶" customModuleProvider="target">

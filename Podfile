@@ -9,6 +9,4 @@ target '分錢寶’ do
 
   pod 'TwicketSegmentedControl'
   
-  pod 'IHKeyboardAvoiding'
-  
 end

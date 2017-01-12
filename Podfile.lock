@@ -1,15 +1,12 @@
 PODS:
-  - IHKeyboardAvoiding (3.4)
   - TwicketSegmentedControl (0.1.1)
 
 DEPENDENCIES:
-  - IHKeyboardAvoiding
   - TwicketSegmentedControl
 
 SPEC CHECKSUMS:
-  IHKeyboardAvoiding: b51e35985cced32292c2e9348b2e96015bb49b8e
   TwicketSegmentedControl: bbb2d155792dbfcee7fea995a614d0c0a3de4a16
 
-PODFILE CHECKSUM: 01e373f794ae05be722d892e76b28a24ef59132b
+PODFILE CHECKSUM: bcdb578c9f001fbdf22e5968e7c7cd49051433f9
 
 COCOAPODS: 1.1.1
