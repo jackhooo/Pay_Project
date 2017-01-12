@@ -13,32 +13,61 @@ var whoPayList = Array(repeating: 0, count: memberItemproject.members.count)
 
 class WhoPayViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
+    @IBOutlet weak var payCollectionView: UICollectionView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        NotificationCenter.default.addObserver(self, selector:#selector(self.loadPay(notification:)),name:NSNotification.Name(rawValue: "add"), object: nil)
+        
+        whoPayNum = 0
+        
         if(isEdit == 1){
-           
             whoPayList = []
-            
-            for x in memberItemproject.membersDetail{
-            
-                if(x.value[memberItemproject.getItemNum(item: toEditItem)]>0)
+            for x in memberItemproject.members{
+                //if(x.value[memberItemproject.getItemNum(item: toEditItem)]>0)
+                if(memberItemproject.membersDetail[x]![memberItemproject.getItemNum(item: toEditItem)]>0)
                 {
                     whoPayNum += 1
                     whoPayList.append(1)
                 }
                 else
-                {
-                    whoPayList.append(0)
-                }
+                {whoPayList.append(0)}
             }
-
         }
         else
         {
             whoPayList = Array(repeating: 0, count: memberItemproject.members.count)
         }
+    }
+    
+    func loadPay(notification: NSNotification){
+        
+        payCollectionView.reloadData()
+        
+        whoPayNum = 0
+        
+        if(isEdit == 1){
+            whoPayList = []
+            for x in memberItemproject.members{
+                //if(x.value[memberItemproject.getItemNum(item: toEditItem)]>0)
+                if(memberItemproject.membersDetail[x]![memberItemproject.getItemNum(item: toEditItem)]>0)
+                {
+                    whoPayNum += 1
+                    whoPayList.append(1)
+                }
+                else
+                {whoPayList.append(0)}
+            }
+            print("!!!!!!!!!\(whoPayList)")
+        }
+        else
+        {
+            whoPayList = Array(repeating: 0, count: memberItemproject.members.count)
+        }
+
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int

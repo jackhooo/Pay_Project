@@ -332,7 +332,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Itemcell" id="lfO-Xr-e1V" customClass="ItemCollectionViewCell" customModule="分錢寶" customModuleProvider="target">
-                                        <rect key="frame" x="5" y="50" width="365" height="118"/>
+                                        <rect key="frame" x="0.0" y="50" width="365" height="118"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="365" height="118"/>
@@ -465,7 +465,7 @@
                                 <rect key="frame" x="0.0" y="28" width="327" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L7S-st-g5M" id="eDs-Rx-5NS">
-                                    <frame key="frameInset" width="327" height="38"/>
+                                    <frame key="frameInset" width="327" height="38.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yfl-hp-AKj">
@@ -812,7 +812,11 @@
                                             <segue destination="Jqs-q3-svW" kind="embed" id="waA-aX-gxJ"/>
                                         </connections>
                                     </containerView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POf-Se-GuP"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POf-Se-GuP">
+                                        <connections>
+                                            <action selector="addMember:" destination="bPl-WT-C9A" eventType="touchUpInside" id="yDu-bw-oqh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -872,6 +876,7 @@
                     <connections>
                         <outlet property="itemNameText" destination="nXi-VE-pYR" id="Yc2-e1-N7T"/>
                         <outlet property="itemPriceText" destination="efh-3i-dCl" id="2AN-L4-T2t"/>
+                        <outlet property="memberNameText" destination="iwB-yS-G3Z" id="hti-Mt-5UY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAZ-Iq-Zbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -884,7 +889,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nLh-fM-tza" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l7J-Lb-onX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="l7J-Lb-onX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -963,6 +968,9 @@
                             <constraint firstItem="fjj-U4-hl5" firstAttribute="leading" secondItem="lYT-4i-YUb" secondAttribute="leading" id="bsA-cW-lKK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="payCollectionView" destination="fjj-U4-hl5" id="tvy-lU-Plp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hre-vz-OcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1034,6 +1042,9 @@
                             <constraint firstItem="vzK-D5-jcx" firstAttribute="leading" secondItem="hCH-6K-rHe" secondAttribute="leading" id="sDl-pf-DLK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eatCollectionView" destination="vzK-D5-jcx" id="lWb-Ic-Gyt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOS-ob-C36" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1052,7 +1063,7 @@
                                 <rect key="frame" x="0.0" y="28" width="279" height="39"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LU6-HJ-xm2" id="rfF-9v-CQI">
-                                    <frame key="frameInset" width="279" height="38"/>
+                                    <frame key="frameInset" width="279" height="38.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoU-6m-J5G">

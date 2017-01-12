@@ -13,20 +13,21 @@ var whoEatList = Array(repeating: 0, count: memberItemproject.members.count)
 
 class WhoEatViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
+    @IBOutlet weak var eatCollectionView: UICollectionView!
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        whoEatNum = 0
+        
+        NotificationCenter.default.addObserver(self, selector:#selector(self.loadEat(notification:)),name:NSNotification.Name(rawValue: "add"), object: nil)
+        
         if(isEdit == 1){
-            
             whoEatList = memberItemproject.itemsDetail[toEditItem]!
-            
             for x in memberItemproject.itemsDetail[toEditItem]!{
-                
                 if(x == 1)
-                {
-                    whoEatNum += 1
-                }
+                {whoEatNum += 1}
             }
         }
         else
@@ -35,6 +36,26 @@ class WhoEatViewController: UIViewController, UICollectionViewDelegate, UICollec
         }
         
     }
+    
+    func loadEat(notification: NSNotification){
+        
+        eatCollectionView.reloadData()
+        
+        whoEatNum = 0
+        
+        if(isEdit == 1){
+            whoEatList = memberItemproject.itemsDetail[toEditItem]!
+            for x in memberItemproject.itemsDetail[toEditItem]!{
+                if(x == 1)
+                {whoEatNum += 1}
+            }
+        }
+        else
+        {
+            whoEatList = Array(repeating: 0, count: memberItemproject.members.count)
+        }
+    }
+
     
     func numberOfSections(in collectionView: UICollectionView) -> Int
     {

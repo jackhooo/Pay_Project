@@ -67,6 +67,10 @@ class MemberDetailTableViewController: UITableViewController {
             if(list.value[project.getMemberNum(member: member)]==1){
                 items.append(list.key)
             }
+            else if(list.value[project.getMemberNum(member: member)] == 0 && project.membersDetail[member]![project.getItemNum(item: list.key)] > 0)
+            {
+                items.append(list.key)
+            }
         }
         
         return items
